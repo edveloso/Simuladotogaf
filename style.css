@@ -37,6 +37,16 @@ button:hover {
     background-color: #0056b3;
 }
 
+.correct {
+    color: green;
+    font-weight: bold;
+}
+
+.wrong {
+    color: red;
+    font-weight: bold;
+}
+
 #results {
     margin-top: 20px;
     text-align: center;
