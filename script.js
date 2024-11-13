@@ -37,26 +37,36 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function showExplanation() {
-        const answerContainer = quizContainer.querySelector('.answers');
-        const selector = `input[name=question${currentQuestionIndex}]:checked`;
-        const userAnswer = parseInt((answerContainer.querySelector(selector) || {}).value);
-        const currentQuestion = shuffledQuestions[currentQuestionIndex];
-        const correctAnswer = currentQuestion.CORRECT_ANSWER;
-        const userAnswerLetter = answerMapping[userAnswer];
-        let resultText = `Your Answer was ${userAnswerLetter}. Wrong. ${correctAnswer} is the right answer.`;
-        if (userAnswerLetter === correctAnswer) {
-            numCorrect++;
-            resultText = `Your Answer was ${userAnswerLetter}. Correct! ${correctAnswer} is the right answer.`;
-        }
-        quizContainer.innerHTML += `
-            <div class="result">${resultText}</div>
-            <div class="explanation">${currentQuestion.EXPLANATION_TEXT}</div>
-            <button id="next">Next Question</button>
-        `;
-        document.getElementById('submit').disabled = true;
-        document.getElementById('next').addEventListener('click', showNextQuestion);
-        updateScore();
+    const answerContainer = quizContainer.querySelector('.answers');
+    const selector = `input[name=question${currentQuestionIndex}]:checked`;
+    const userAnswer = parseInt((answerContainer.querySelector(selector) || {}).value);
+    const currentQuestion = shuffledQuestions[currentQuestionIndex];
+    const correctAnswer = currentQuestion.CORRECT_ANSWER;
+    const userAnswerLetter = answerMapping[userAnswer];
+    
+    let resultText;
+    let resultClass;
+
+    if (userAnswerLetter === correctAnswer) {
+        numCorrect++;
+        resultText = `Your Answer was ${userAnswerLetter}. Correct! ${correctAnswer} is the right answer.`;
+        resultClass = 'correct';  // Set class to correct if the answer is right
+    } else {
+        resultText = `Your Answer was ${userAnswerLetter}. Wrong. ${correctAnswer} is the right answer.`;
+        resultClass = 'wrong';  // Set class to wrong if the answer is incorrect
     }
+
+    quizContainer.innerHTML += `
+        <div class="result ${resultClass}">${resultText}</div>
+        <div class="explanation">${currentQuestion.EXPLANATION_TEXT}</div>
+        <button id="next">Next Question</button>
+    `;
+    
+    document.getElementById('submit').disabled = true;
+    document.getElementById('next').addEventListener('click', showNextQuestion);
+    updateScore();
+}
+
 
     function showNextQuestion() {
         currentQuestionIndex++;
