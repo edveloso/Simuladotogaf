@@ -777,12 +777,163 @@ const questions = [
         "CORRECT_ANSWER": "B",
         "JSONINDEX": "10",
         "Probability": 1
+    },
+{
+        "QUESTION_NUMBER": "88",
+        "QUESTION_TYPE": "AZ-204 - Serviço de Aplicativo",
+        "QUESTION_TEXT": "Qual é o objetivo dos mapeamentos de manipulador nos aplicativos do Windows no Serviço de Aplicativo?",
+        "POSSIBLE_ANSWERS": [
+            "A. Adicionar processadores de script personalizados para manipular solicitações para extensões de arquivo especificadas.",
+            "B. Configurar o caminho absoluto de montagem de armazenamento.",
+            "C. Adicionar armazenamento personalizado para aplicativos conteinerizados.",
+            "D. Configurar slots de implantação."
+        ],
+        "EXPLANATION_TEXT": "Explicação: Nos aplicativos do Windows, os mapeamentos de manipulador permitem adicionar processadores de script personalizados para manipular solicitações de extensões de arquivo específicas, como *.php ou handler.fcgi.",
+        "CORRECT_ANSWER": "A",
+        "JSONINDEX": "88",
+        "Probability": 1
+    },
+    {
+        "QUESTION_NUMBER": "89",
+        "QUESTION_TYPE": "AZ-204 - Serviço de Aplicativo",
+        "QUESTION_TEXT": "Qual é o caminho raiz padrão onde o código é implantado em um aplicativo do Windows no Serviço de Aplicativo?",
+        "POSSIBLE_ANSWERS": [
+            "A. D:\\home\\site\\wwwroot",
+            "B. C:\\app\\root",
+            "C. /var/www/html",
+            "D. D:\\root\\site"
+        ],
+        "EXPLANATION_TEXT": "Explicação: O caminho raiz padrão nos aplicativos do Windows no Serviço de Aplicativo é D:\\home\\site\\wwwroot, onde o código é implantado por padrão.",
+        "CORRECT_ANSWER": "A",
+        "JSONINDEX": "89",
+        "Probability": 1
+    },
+    {
+        "QUESTION_NUMBER": "90",
+        "QUESTION_TYPE": "AZ-204 - Serviço de Aplicativo",
+        "QUESTION_TEXT": "Quais configurações são aplicáveis aos slots de implantação quando a configuração de montagem de armazenamento está marcada?",
+        "POSSIBLE_ANSWERS": [
+            "A. Apenas configurações básicas.",
+            "B. Configurações de montagem de armazenamento.",
+            "C. Configurações de mapeamento de manipulador.",
+            "D. Configurações de diretórios virtuais."
+        ],
+        "EXPLANATION_TEXT": "Explicação: Quando a configuração de montagem de armazenamento está marcada, as configurações de montagem de armazenamento também se aplicam aos slots de implantação.",
+        "CORRECT_ANSWER": "B",
+        "JSONINDEX": "90",
+        "Probability": 1
+    },
+    {
+        "QUESTION_NUMBER": "91",
+        "QUESTION_TYPE": "AZ-204 - Serviço de Aplicativo",
+        "QUESTION_TEXT": "Qual tipo de armazenamento é compatível apenas com acesso somente leitura para aplicativos conteinerizados no Serviço de Aplicativo?",
+        "POSSIBLE_ANSWERS": [
+            "A. Arquivos do Azure",
+            "B. Blobs do Azure",
+            "C. Compartilhamento NFS",
+            "D. Disco Gerenciado do Azure"
+        ],
+        "EXPLANATION_TEXT": "Explicação: Para aplicativos conteinerizados, os Blobs do Azure suportam apenas acesso somente leitura, enquanto os Arquivos do Azure oferecem suporte para leitura e gravação.",
+        "CORRECT_ANSWER": "B",
+        "JSONINDEX": "91",
+        "Probability": 1
+    },
+    {
+        "QUESTION_NUMBER": "92",
+        "QUESTION_TYPE": "AZ-204 - Serviço de Aplicativo",
+        "QUESTION_TEXT": "Qual opção de configuração deve ser selecionada se a conta de armazenamento usa pontos de extremidade privados ou Azure Key Vault?",
+        "POSSIBLE_ANSWERS": [
+            "A. Básico",
+            "B. Avançado",
+            "C. Padrão",
+            "D. Personalizado"
+        ],
+        "EXPLANATION_TEXT": "Explicação: Para configurações que utilizam pontos de extremidade de serviço, pontos de extremidade privados ou Azure Key Vault, a opção 'Avançado' deve ser selecionada.",
+        "CORRECT_ANSWER": "B",
+        "JSONINDEX": "92",
+        "Probability": 1
+    },
+    {
+        "QUESTION_NUMBER": "93",
+        "QUESTION_TYPE": "AZ-204 - Serviço de Aplicativo",
+        "QUESTION_TEXT": "Nos aplicativos do Windows, o que acontece se você desmarcar a caixa de seleção 'Diretório' ao configurar um diretório virtual?",
+        "POSSIBLE_ANSWERS": [
+            "A. Ele é marcado como um aplicativo Web.",
+            "B. Ele é excluído do mapeamento.",
+            "C. Ele é configurado como diretório raiz.",
+            "D. Ele é configurado como um contêiner."
+        ],
+        "EXPLANATION_TEXT": "Explicação: Ao desmarcar a caixa de seleção 'Diretório' em um diretório virtual, ele é marcado como um aplicativo Web.",
+        "CORRECT_ANSWER": "A",
+        "JSONINDEX": "93",
+        "Probability": 1
+    },
+    {
+        "QUESTION_NUMBER": "94",
+        "QUESTION_TYPE": "AZ-204 - Serviço de Aplicativo",
+        "QUESTION_TEXT": "Em aplicativos conteinerizados, o que deve ser fornecido ao usar a configuração básica para montar armazenamento?",
+        "POSSIBLE_ANSWERS": [
+            "A. Nome do compartilhamento",
+            "B. Contêiner de armazenamento",
+            "C. Caminho absoluto do processador de script",
+            "D. Extensão do arquivo"
+        ],
+        "EXPLANATION_TEXT": "Explicação: Para configurações básicas em aplicativos conteinerizados, o contêiner de armazenamento desejado deve ser especificado.",
+        "CORRECT_ANSWER": "B",
+        "JSONINDEX": "94",
+        "Probability": 1
+    },
+    {
+        "QUESTION_NUMBER": "95",
+        "QUESTION_TYPE": "AZ-204 - Serviço de Aplicativo",
+        "QUESTION_TEXT": "Qual das opções a seguir é verdadeira sobre os aplicativos conteinerizados no Serviço de Aplicativo?",
+        "POSSIBLE_ANSWERS": [
+            "A. São compatíveis apenas com Arquivos do Azure.",
+            "B. Incluem apenas aplicativos baseados em Linux.",
+            "C. Podem usar armazenamento personalizado configurado como Básico ou Avançado.",
+            "D. Exigem configuração manual de manipuladores de script."
+        ],
+        "EXPLANATION_TEXT": "Explicação: Os aplicativos conteinerizados no Serviço de Aplicativo podem usar armazenamento personalizado configurado como Básico ou Avançado, dependendo dos requisitos.",
+        "CORRECT_ANSWER": "C",
+        "JSONINDEX": "95",
+        "Probability": 1
+    },
+    {
+        "QUESTION_NUMBER": "96",
+        "QUESTION_TYPE": "AZ-204 - Serviço de Aplicativo",
+        "QUESTION_TEXT": "Qual caminho deve ser usado para referir-se ao diretório raiz de um aplicativo do Windows no Serviço de Aplicativo?",
+        "POSSIBLE_ANSWERS": [
+            "A. C:\\home\\site\\root",
+            "B. D:\\home\\site\\wwwroot",
+            "C. /home/site",
+            "D. \\var\\root"
+        ],
+        "EXPLANATION_TEXT": "Explicação: O caminho D:\\home\\site\\wwwroot é o diretório raiz padrão para aplicativos do Windows no Serviço de Aplicativo.",
+        "CORRECT_ANSWER": "B",
+        "JSONINDEX": "96",
+        "Probability": 1
+    },
+    {
+        "QUESTION_NUMBER": "97",
+        "QUESTION_TYPE": "AZ-204 - Serviço de Aplicativo",
+        "QUESTION_TEXT": "Quais tipos de armazenamento são compatíveis com aplicativos conteinerizados no Serviço de Aplicativo?",
+        "POSSIBLE_ANSWERS": [
+            "A. Apenas Blobs do Azure.",
+            "B. Apenas Arquivos do Azure.",
+            "C. Blobs do Azure e Arquivos do Azure.",
+            "D. Apenas armazenamento local."
+        ],
+        "EXPLANATION_TEXT": "Explicação: Aplicativos conteinerizados no Serviço de Aplicativo são compatíveis com Blobs do Azure (somente leitura) e Arquivos do Azure.",
+        "CORRECT_ANSWER": "C",
+        "JSONINDEX": "97",
+        "Probability": 1
     }
 
         ];
 
 
 
+    
 
 
 
