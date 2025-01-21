@@ -627,8 +627,164 @@ const questions = [
             "CORRECT_ANSWER": "A, B",
             "JSONINDEX": "77",
             "Probability": 1
-        }
+        },
+        {
+        "QUESTION_NUMBER": "78",
+        "QUESTION_TYPE": "AZ-204 - Serviço de Aplicativo",
+        "QUESTION_TEXT": "Qual é a principal diferença entre o Serviço de Aplicativo multilocatário e o Ambiente do Serviço de Aplicativo (ASE)?",
+        "POSSIBLE_ANSWERS": [
+            "A. O multilocatário suporta SKUs Isoladas, enquanto o ASE suporta todas as SKUs.",
+            "B. O ASE hospeda planos de SKU Isolado diretamente na rede virtual do Azure, enquanto o multilocatário utiliza SKUs como Gratuita, Compartilhada e Premium.",
+            "C. O ASE utiliza SKUs Gratuita e Compartilhada, enquanto o multilocatário utiliza SKUs Isoladas.",
+            "D. O multilocatário oferece suporte apenas a ambientes dedicados."
+        ],
+        "EXPLANATION_TEXT": "Explicação: O Ambiente do Serviço de Aplicativo (ASE) é uma implantação de locatário único que hospeda planos de SKU Isolado diretamente na rede virtual do Azure. Já o multilocatário utiliza SKUs como Gratuita, Compartilhada, Básica, Standard, Premium, PremiumV2 e PremiumV3.",
+        "CORRECT_ANSWER": "B",
+        "JSONINDEX": "1",
+        "Probability": 1
+    },
+    {
+        "QUESTION_NUMBER": "79",
+        "QUESTION_TYPE": "AZ-204 - Serviço de Aplicativo",
+        "QUESTION_TEXT": "Quais funções tratam solicitações HTTP ou HTTPS de entrada no Serviço de Aplicativo?",
+        "POSSIBLE_ANSWERS": [
+            "A. Trabalhos.",
+            "B. Front-ends.",
+            "C. Pontos de extremidade privados.",
+            "D. Conexões híbridas."
+        ],
+        "EXPLANATION_TEXT": "Explicação: No Serviço de Aplicativo, as funções chamadas de front-ends tratam solicitações HTTP ou HTTPS de entrada, enquanto os trabalhos hospedam a carga de trabalho do cliente.",
+        "CORRECT_ANSWER": "B",
+        "JSONINDEX": "2",
+        "Probability": 1
+    },
+    {
+        "QUESTION_NUMBER": "80",
+        "QUESTION_TYPE": "AZ-204 - Serviço de Aplicativo",
+        "QUESTION_TEXT": "Qual recurso permite restringir o acesso ao aplicativo a partir de um conjunto definido de endereços?",
+        "POSSIBLE_ANSWERS": [
+            "A. Pontos de extremidade privados.",
+            "B. Endereço atribuído ao aplicativo.",
+            "C. Restrições de acesso.",
+            "D. Conexões híbridas."
+        ],
+        "EXPLANATION_TEXT": "Explicação: O recurso 'Restrições de acesso' permite restringir o acesso ao aplicativo a partir de um conjunto bem definido de endereços IP.",
+        "CORRECT_ANSWER": "C",
+        "JSONINDEX": "3",
+        "Probability": 1
+    },
+    {
+        "QUESTION_NUMBER": "81",
+        "QUESTION_TYPE": "AZ-204 - Serviço de Aplicativo",
+        "QUESTION_TEXT": "Quais SKUs do Serviço de Aplicativo hospedam cargas de trabalho dedicadas a apenas um plano?",
+        "POSSIBLE_ANSWERS": [
+            "A. Gratuita e Compartilhada.",
+            "B. Básica e superiores.",
+            "C. PremiumV2 e PremiumV3.",
+            "D. Apenas Isolada."
+        ],
+        "EXPLANATION_TEXT": "Explicação: As SKUs Básica e superiores hospedam cargas de trabalho que são dedicadas a apenas um plano do Serviço de Aplicativo, ao contrário das SKUs Gratuita e Compartilhada, que utilizam recursos multilocatários.",
+        "CORRECT_ANSWER": "B",
+        "JSONINDEX": "4",
+        "Probability": 1
+    },
+    {
+        "QUESTION_NUMBER": "82",
+        "QUESTION_TYPE": "AZ-204 - Serviço de Aplicativo",
+        "QUESTION_TEXT": "Qual propriedade lista todos os endereços IP de saída que o aplicativo pode usar em uma unidade de escala?",
+        "POSSIBLE_ANSWERS": [
+            "A. outboundIpAddresses.",
+            "B. possibleOutboundIpAddresses.",
+            "C. ipRestrictions.",
+            "D. virtualNetworkIntegration."
+        ],
+        "EXPLANATION_TEXT": "Explicação: A propriedade 'possibleOutboundIpAddresses' lista todos os endereços IP de saída possíveis que o aplicativo pode usar em uma unidade de escala, independentemente do tipo de preço.",
+        "CORRECT_ANSWER": "B",
+        "JSONINDEX": "5",
+        "Probability": 1
+    },
+    {
+        "QUESTION_NUMBER": "83",
+        "QUESTION_TYPE": "AZ-204 - Serviço de Aplicativo",
+        "QUESTION_TEXT": "Como localizar os endereços IP de saída atualmente usados pelo aplicativo no portal do Azure?",
+        "POSSIBLE_ANSWERS": [
+            "A. Selecionar Propriedades na barra de navegação à esquerda do aplicativo.",
+            "B. Executar o comando 'az webapp show' com o parâmetro '--query outboundIpAddresses'.",
+            "C. Consultar a propriedade 'possibleOutboundIpAddresses'.",
+            "D. Ambos A e B."
+        ],
+        "EXPLANATION_TEXT": "Explicação: Você pode localizar os endereços IP de saída atualmente usados pelo aplicativo no portal do Azure, selecionando Propriedades na barra de navegação à esquerda ou executando o comando 'az webapp show' com o parâmetro '--query outboundIpAddresses'.",
+        "CORRECT_ANSWER": "D",
+        "JSONINDEX": "6",
+        "Probability": 1
+    },
+    {
+        "QUESTION_NUMBER": "84",
+        "QUESTION_TYPE": "AZ-204 - Serviço de Aplicativo",
+        "QUESTION_TEXT": "Quais recursos permitem tratar o tráfego de saída de um aplicativo?",
+        "POSSIBLE_ANSWERS": [
+            "A. Endereço atribuído ao aplicativo e pontos de extremidade de serviço.",
+            "B. Integração de rede virtual e conexões híbridas.",
+            "C. Restrições de acesso e pontos de extremidade privados.",
+            "D. Front-ends e trabalhos."
+        ],
+        "EXPLANATION_TEXT": "Explicação: A integração de rede virtual e as conexões híbridas permitem gerenciar o tráfego de saída de um aplicativo no Serviço de Aplicativo.",
+        "CORRECT_ANSWER": "B",
+        "JSONINDEX": "7",
+        "Probability": 1
+    },
+    {
+        "QUESTION_NUMBER": "85",
+        "QUESTION_TYPE": "AZ-204 - Serviço de Aplicativo",
+        "QUESTION_TEXT": "O que ocorre ao escalar horizontalmente um plano Standard do Serviço de Aplicativo?",
+        "POSSIBLE_ANSWERS": [
+            "A. Novos aplicativos são adicionados automaticamente.",
+            "B. Todos os aplicativos no plano são replicados para novas instâncias.",
+            "C. As conexões de rede são redefinidas.",
+            "D. Apenas as cargas de trabalho de multilocatários são escaladas."
+        ],
+        "EXPLANATION_TEXT": "Explicação: Quando você escala horizontalmente um plano Standard do Serviço de Aplicativo, todos os aplicativos nesse plano são replicados para novas instâncias.",
+        "CORRECT_ANSWER": "B",
+        "JSONINDEX": "8",
+        "Probability": 1
+    },
+    {
+        "QUESTION_NUMBER": "86",
+        "QUESTION_TYPE": "AZ-204 - Serviço de Aplicativo",
+        "QUESTION_TEXT": "Quais tipos de trabalho as SKUs PremiumV2 e PremiumV3 utilizam?",
+        "POSSIBLE_ANSWERS": [
+            "A. O mesmo tipo usado por Gratuita e Compartilhada.",
+            "B. Tipos diferentes de VMs de trabalho.",
+            "C. Apenas o tipo de VM usado por Isolada.",
+            "D. Não utilizam VMs de trabalho."
+        ],
+        "EXPLANATION_TEXT": "Explicação: As SKUs PremiumV2 e PremiumV3 utilizam tipos diferentes de VMs de trabalho em comparação às SKUs Gratuita, Compartilhada, Básica, Standard e Premium.",
+        "CORRECT_ANSWER": "B",
+        "JSONINDEX": "9",
+        "Probability": 1
+    },
+    {
+        "QUESTION_NUMBER": "87",
+        "QUESTION_TYPE": "AZ-204 - Serviço de Aplicativo",
+        "QUESTION_TEXT": "Qual recurso de entrada pode ser utilizado para oferecer suporte a SSL baseado em IP no aplicativo?",
+        "POSSIBLE_ANSWERS": [
+            "A. Pontos de extremidade de serviço.",
+            "B. Endereço atribuído ao aplicativo.",
+            "C. Conexões híbridas.",
+            "D. Integração de rede virtual."
+        ],
+        "EXPLANATION_TEXT": "Explicação: Para suportar SSL baseado em IP no aplicativo, utiliza-se o recurso 'Endereço atribuído ao aplicativo'.",
+        "CORRECT_ANSWER": "B",
+        "JSONINDEX": "10",
+        "Probability": 1
+    }
 
         ];
+
+
+
+
+
+
 
 
