@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
             );
         });
         quizContainer.innerHTML = `
-            <div class="question"> ${currentQuestion.QUESTION_TEXT} </div>
+            <div class="question">${currentQuestion.QUESTION_TEXT} </div>
             <div class="answers"> ${answers.join('')} </div>
             <button id="submit">Submit Answer</button>
         `;
@@ -78,7 +78,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function showResults() {
-        const numQuestions = currentQuestionIndex + 1;
+        const numQuestions = currentQuestionIndex;
         const numWrong = numQuestions - numCorrect;
         const scorePercentage = ((numCorrect / numQuestions) * 100).toFixed(2);
         quizContainer.innerHTML = '';
