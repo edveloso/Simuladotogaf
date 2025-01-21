@@ -1,7 +1,7 @@
 Utilize o dados descrito em <<DADOS>>  e formate-os gerando 10 perguntas para um quiz aplicando o <<TEMPLATE>>
 Não esqueça de colocar no campo <<Explicação>> do template o maior número de explicações possíveis. 
 
-Começe o número de questão por 68.
+Começe o número de questão por 78.
 
 Mantenha o idioma original.
 
@@ -10,79 +10,52 @@ defina o seguinte valor para QUESTION_TYPE
 
 DADOS:
 """
-Explorar a autenticação e a autorização no Serviço de Aplicativo
+Descobrir recursos de rede do Serviço de Aplicativo
 Concluído
 100 XP
-6 minutos
-O Serviço de Aplicativo do Azure fornece suporte interno para a autenticação e autorização. Você pode conectar usuários e acessar dados escrevendo pouco ou nenhum código em seu aplicativo Web, API RESTful, back-end móvel ou Azure Functions.
+4 minutos
+Por padrão, os aplicativos hospedados no Serviço de Aplicativo podem ser acessados diretamente pela Internet e permitem acessar apenas pontos de extremidade hospedados online. No entanto, para muitos aplicativos, você precisa controlar o tráfego de rede de entrada e saída.
+Há dois tipos de implantação principais para o Serviço de Aplicativo do Azure. O serviço público multilocatário hospeda planos do Serviço de Aplicativo nas SKUs Gratuitas, Compartilhadas, Básicas, Standard, Premium, PremiumV2 e PremiumV3. Há ainda o ASE (Ambiente do Serviço de Aplicativo) de locatário único, que hospeda planos do Serviço do Aplicativo de SKU Isolado diretamente na rede virtual do Azure.
+Recursos de rede do Serviço de Aplicativo multilocatário
+O Serviço de Aplicativo do Azure é um sistema distribuído. As funções que tratam solicitações HTTP ou HTTPS de entrada são chamadas de front-ends. As funções que hospedam a carga de trabalho do cliente são chamadas de Trabalhos. Todas as funções em uma implantação do Serviço de Aplicativo são encontradas em uma rede multilocatário. Como há muitos clientes diferentes na mesma unidade de escala do Serviço de Aplicativo, não é possível conectar a rede do Serviço de Aplicativo diretamente à sua rede.
+Em vez de conectar as redes, use recursos para lidar com os vários aspectos da comunicação do aplicativo. Os recursos que tratam as solicitações para o aplicativo não podem ser usados para resolver problemas ao fazer chamadas pelo aplicativo. Da mesma forma, os recursos que resolvem problemas de chamadas pelo aplicativo não podem ser usados para resolver problemas do aplicativo.
+Recursos de entrada	Recursos de saída
+Endereço atribuído ao aplicativo	Conexões Híbridas
+Restrições de acesso	Integração de rede virtual exigida por gateway
+Pontos de extremidade de serviço	Integração de rede virtual
+Pontos de extremidade privados	
+Você pode combinar os recursos para resolver problemas, com poucas exceções. Os casos de uso a seguir de entrada são exemplos de como usar os recursos de rede do Serviço de Aplicativo para controlar o tráfego de entrada para o seu aplicativo.
+Caso de uso de entrada	Recurso
+Suporte às necessidades de SSL baseado em IP para o aplicativo	Endereço atribuído ao aplicativo
+Suporte ao endereço de entrada dedicado e não compartilhado para o aplicativo	Endereço atribuído ao aplicativo
+Restringir o acesso ao aplicativo de um conjunto de endereços bem definidos	Restrições de acesso
+Comportamento de rede padrão
+As unidades de escala do Serviço de Aplicativo do Azure suportam muitos clientes em cada implantação. Os planos de SKU Gratuita e Compartilhada hospedam cargas de trabalho do cliente em trabalhos multilocatários. Os planos Básico e superiores hospedam cargas de trabalho do cliente que são dedicadas a apenas um plano do Serviço de Aplicativo. Se você tiver um plano Standard do Serviço de Aplicativo, todos os aplicativos nesse plano serão executados no mesmo trabalho. Se você escalar horizontalmente o trabalho, todos os aplicativos nesse plano do Serviço de Aplicativo serão replicados em um novo trabalho para cada instância existente.
+Endereços de saída
 
-Por que usar a autenticação interna?
-Você não é necessário usar o Serviço de Aplicativo para autenticação e autorização. Muitas estruturas da Web são agrupadas com recursos de segurança e você poderá utilizá-las, se desejar. Caso precise de mais flexibilidade do que o Serviço de Aplicativo fornece, você também poderá gravar seus próprios utilitários.
+As VMs de trabalho são divididas em grande parte pelos planos do Serviço de Aplicativo. Os planos Gratuito, Compartilhado, Básico, Standard e Premium usam o mesmo tipo de VM de trabalho. O plano PremiumV2 usa outro tipo de VM. O PremiumV3 usa um outro tipo de VM. Ao mudar a família de VMs, você obtém um conjunto diferente de endereços de saída.
+Há muitos endereços que são usados para chamadas de saída. Os endereços de saída usados pelo aplicativo para fazer chamadas de saída são listados nas propriedades do aplicativo. Esses endereços são compartilhados por todos os aplicativos em execução na mesma família de VMs de trabalho da implantação do Serviço de Aplicativo. Caso queira ver todos os endereços que o aplicativo pode usar em uma unidade de escala, há uma propriedade chamada possibleOutboundIpAddresses que os listará.
+Localizar IPs de saída
 
-O recurso interno de autenticação para o Serviço de Aplicativo e o Azure Functions pode facilitar e agilizar os processos ao fornecer autenticação pronta para uso com provedores de identidade federada, a fim de permitir que você se concentre no restante do aplicativo.
+Para localizar os endereços IP de saída atualmente usados pelo aplicativo no portal do Azure, selecione Propriedades na barra de navegação à esquerda do aplicativo.
+É possível localizar as mesmas informações, executando o comando da CLI do Azure a seguir no Cloud Shell. Eles são listados no campo Endereços IP de saída adicionais.
+Bash
 
-O Serviço de Aplicativo do Azure permite integrar uma variedade de recursos de autenticação ao aplicativo Web ou à API sem implementá-los por conta própria.
-A autenticação é incorporada diretamente à plataforma e não requer nenhuma linguagem específica, SDK, expertise em segurança ou código.
-Você pode integrar vários provedores de logon. Por exemplo, Microsoft Entra ID, Facebook, Google, X.
-Provedores de identidade
-O Serviço de Aplicativo usa identidade federada, na qual um provedor de identidade de terceiros gerencia as identidades do usuário e o fluxo de autenticação para você. Os provedores de identidade a seguir estão disponíveis por padrão:
+Copiar
+az webapp show \
+    --resource-group <group_name> \
+    --name <app_name> \ 
+    --query outboundIpAddresses \
+    --output tsv
+Para localizar todos os endereços IP de saída possíveis para o aplicativo, independentemente dos tipos de preços, execute o comando a seguir no Cloud Shell.
+Bash
 
-Provedor	Ponto de extremidade de logon	Diretrizes
-Plataforma de identidade da Microsoft	/.auth/login/aad	Logon da plataforma de identidade da Microsoft do Serviço de Aplicativo
-Facebook	/.auth/login/facebook	Logon do Facebook no Serviço de Aplicativo
-Google	/.auth/login/google	Logon do Google no Serviço de Aplicativo
-X	/.auth/login/twitter	Login no Serviço de Aplicativo com o X
-Qualquer provedor do OpenID Connect	/.auth/login/<providerName>	Logon do OpenID Connect no Serviço de Aplicativo
-GitHub	/.auth/login/github	Serviço de Aplicativo Logon do GitHub
-Ao habilitar a autenticação e autorização com um desses provedores, seu ponto de extremidade de logon estará disponível para autenticação de usuário e validação de tokens de autenticação do provedor. Você pode fornecer com facilidade aos usuários qualquer combinação dessas opções de conexão.
-
-Como ele funciona
-O módulo de autenticação e autorização executa na mesma caixa restrita que o código do aplicativo. Quando habilitado, cada solicitação HTTP recebida passa por ele antes de ser entregue ao código do seu aplicativo. Esse módulo trata diversos pontos do aplicativo:
-
-Autentica usuários e clientes com o provedor de identidade especificado
-Valida, armazena e atualiza tokens OAuth emitidos pelo provedor de identidade configurado
-Gerencia a sessão autenticada
-Injeta informações de identidade em cabeçalhos da solicitação
-O módulo é executado separadamente do código do aplicativo e pode ser configurado usando as configurações do Azure Resource Manager ou um arquivo de configuração. Não há necessidade de SDKs, linguagens de programação específicas ou alterações no código do aplicativo.
-
- Observação
-
-Em Linux e contêineres, o módulo de autenticação e autorização é executado em um contêiner separado, isolado do código do aplicativo. Como não funciona em processo, a integração direta com estruturas de linguagem específicas não é possível.
-
-Fluxo de autenticação
-O fluxo de autenticação é o mesmo para todos os provedores, mas difere dependendo se você deseja entrar com o SDK do provedor.
-
-Sem SDK do provedor: o aplicativo delega o logon federado ao Serviço de Aplicativo. Essa delegação é geralmente o caso em aplicativos de navegador, que podem apresentar a página de logon do provedor ao usuário. O código do servidor gerencia o processo de entrada e é conhecido como fluxo direcionado pelo servidor ou fluxo do servidor.
-
-Com o provedor SDK: o aplicativo assina os usuários no provedor manualmente e, em seguida, envia o token de autenticação para o Serviço de Aplicativo para validação. Esse é tipicamente o caso de aplicativos sem navegador, que não podem apresentar a página de entrada do provedor ao usuário. O código do aplicativo gerencia o processo de entrada e é conhecido como fluxo direcionado pelo cliente ou fluxo do cliente. Isso se aplica a APIs REST, Azure Functions, clientes de navegador JavaScript e aplicativos móveis nativos que assinam usuários usando o SDK do provedor.
-
-A tabela a seguir mostra as etapas do fluxo de autenticação.
-
-Etapa	Sem SDK do provedor	Com SDK do provedor
-Conectar usuário	Redireciona o cliente para /.auth/login/<provider>.	O código do cliente coneta o usuário diretamente no SDK do provedor e recebe um token de autenticação. Para obter informações, consulte a documentação do provedor.
-Pós-autenticação	Provedor redireciona o cliente para /.auth/login/<provider>/callback.	O código do cliente envia o token do provedor para /.auth/login/<provider> para validação.
-Estabelecer sessão autenticada	O Serviço de Aplicativo adiciona um cookie autenticado à resposta.	O Serviço de Aplicativo retorna o próprio token de autenticação para o código do cliente.
-Atender conteúdo autenticado	O cliente inclui o cookie de autenticação em solicitações subsequentes (manipuladas automaticamente pelo navegador).	O código do cliente apresenta o token de autenticação no cabeçalho X-ZUMO-AUTH (manipulado automaticamente pelos SDKs de cliente dos Aplicativos Móveis).
-Para navegadores do cliente, o Serviço de Aplicativo pode direcionar automaticamente todos os usuários não autenticados para /.auth/login/<provider>. Você também pode apresentar aos usuários um ou mais links /.auth/login/<provider> para entrar no aplicativo usando o provedor escolhido.
-
-Comportamento de autorização
-No portal do Azure, é possível configurar o Serviço de Aplicativo com vários comportamentos quando uma solicitação de entrada não é autenticada.
-
-Permitir solicitações não autenticadas: essa opção adia a autorização de tráfego não autenticado para o seu código do aplicativo. Para solicitações autenticadas, o Serviço de Aplicativo também passa informações de autenticação nos cabeçalhos HTTP. Essa opção oferece mais flexibilidade no processamento de solicitações anônimas. Permite que você apresente vários provedores de entrada aos usuários.
-
-Exigir autenticação: essa opção rejeita qualquer tráfego não autenticado para seu aplicativo. Essa rejeição pode ser uma ação de redirecionamento para um dos provedores de identidade configurados. Nesses casos, um cliente de navegador é redirecionado para /.auth/login/<provider> para o provedor escolhido. Se a solicitação anônima originar-se de um aplicativo móvel nativo, a resposta retornada será HTTP 401 Unauthorized. Você também pode configurar a rejeição como HTTP 401 Unauthorized ou HTTP 403 Forbidden para todas as solicitações.
-
- Cuidado
-
-Esse tipo de restrição de acesso se aplica a todas as chamadas ao aplicativo, o que pode não ser útil para aplicativos que desejam uma página inicial publicamente disponível, como muitos aplicativos de página única.
-
-Token Store
-O Serviço de Aplicativo fornece um armazenamento de token integrado, que é um repositório de tokens associados aos usuários dos aplicativos Web, APIs ou aplicativos móveis nativos. Ao habilitar a autenticação com qualquer provedor, esse armazenamento de token ficará imediatamente disponível para o aplicativo.
-
-Registro em log e rastreamento
-Se você habilitar o log de aplicativo, os rastreamentos de autenticação e autorização serão coletados diretamente nos arquivos de log. Ao ver um erro de autenticação não esperado, é possível localizar com facilidade todos os detalhes examinando os logs do aplicativo existente.
-
-
+Copiar
+az webapp show \
+    --resource-group <group_name> \ 
+    --name <app_name> \ 
+    --query possibleOutboundIpAddresses \
+    --output tsv
 
 
 
