@@ -5,6 +5,9 @@ Começe o número de questão por 26.
 
 Mantenha o idioma original.
 
+defina o seguinte valor para QUESTION_TYPE
+"QUESTION_TYPE": "Blob e teste",
+
 DADOS:
 """
 Create a client object
@@ -95,6 +98,7 @@ TEMPLATE:
 const questions = [
     {
         "QUESTION_NUMBER": "1",
+        "QUESTION_TYPE": "Blob e teste",
         "QUESTION_TEXT": "Qual das alternativas a seguir descreve melhor a finalidade do TRM?",
         "POSSIBLE_ANSWERS": [
             "A. Fornecer um framework para governança de TI.",
@@ -110,6 +114,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "2",
+        "QUESTION_TYPE": "Blob e teste",
         "QUESTION_TEXT": "Qual dos seguintes não é considerado uma das principais partes do TOGAF?",
         "POSSIBLE_ANSWERS": [
             "A. Método de Desenvolvimento da Arquitetura.",

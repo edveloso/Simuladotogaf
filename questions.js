@@ -1,6 +1,7 @@
 const questions = [
     {
         "QUESTION_NUMBER": "1",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das seguintes entidades poderia formar uma Empresa de acordo com o TOGAF ?",
         "POSSIBLE_ANSWERS": [
             "A. Os clientes de uma padaria local.",
@@ -16,6 +17,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "2",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das seguintes é uma definição possível no TOGAF, de acordo com o contexto, de arquitetura ?    arquitetura.  interações.",
         "POSSIBLE_ANSWERS": [
             "A. Uma descrição informal de um sistema e seus componentes, usada para orientar o planejamento de arquitetura.",
@@ -31,6 +33,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "3",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "O TOGAF define o desenvolvimento de quatro domínios chave de arquitetura. Qual dos seguintes  NÃO é um destes?",
         "POSSIBLE_ANSWERS": [
             "A. O negócio",
@@ -46,6 +49,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "4",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual NÃO é uma das seis partes do padrão TOGAF 9.2?",
         "POSSIBLE_ANSWERS": [
             "A. Ciclo de Vida de Desenvolvimento de Arquitetura",
@@ -61,6 +65,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "5",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual fase do ADM inclui a identificação das principais partes interessadas que estarão envolvidas  em seu esforço de transformação da arquitetura?",
         "POSSIBLE_ANSWERS": [
             "A. fase A",
@@ -76,6 +81,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "6",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "O que é um produto de trabalho arquitetônico referido que vem em um dos três tipos: Catálogo,  Matriz ou Diagrama?",
         "POSSIBLE_ANSWERS": [
             "A. Um Entregável",
@@ -91,6 +97,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "7",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "O ADM suporta o conceito de iteração de qual das seguintes maneiras?      ",
         "POSSIBLE_ANSWERS": [
             "A. Você pode passar de uma fase para a próxima seguindo as setas e completando um ciclo completo do ADM quantas vezes forem necessárias para desenvolver totalmente sua arquitetura, mas nunca  poderá voltar para uma fase anterior.",
@@ -106,6 +113,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "8",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Em quais fases do ADM os impactos no cenário da arquitetura são resolvidos?",
         "POSSIBLE_ANSWERS": [
             "A. Fases A, B e C.",
@@ -121,6 +129,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "9",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Ao executar o ADM, quando você deve considerar a reutilização de artefatos de arquitetura  armazenados no Repositório de Arquitetura?",
         "POSSIBLE_ANSWERS": [
             "A. Na Fase A, ao determinar a visão arquitetônica.",
@@ -136,6 +145,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "10",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das seguintes afirmações NÃO é verdadeira em relação ao Continuum Corporativo?",
         "POSSIBLE_ANSWERS": [
             "A. O Continuum Corporativo é uma forma de classificar ativos contextuais usados para desenvolver arquiteturas como políticas e padrões.",
@@ -151,6 +161,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "11",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das opções a seguir deve ser classificada como uma solução fundamental dentro do Solutions Continuum?",
         "POSSIBLE_ANSWERS": [
             "A. Um produto de sistema de gestão empresarial",
@@ -166,6 +177,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "12",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das seguintes afirmações descreve com mais precisão o relacionamento entre o Continuum  Corporativo e o Repositório de Arquitetura no TOGAF?",
         "POSSIBLE_ANSWERS": [
             "A. Eles não estão diretamente relacionados.",
@@ -181,6 +193,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "13",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Para gerenciar o conteúdo do Continuum Corporativo (Enterprise Continuum), precisamos de  ferramentas para:",
         "POSSIBLE_ANSWERS": [
             "A. Garantir que a terminologia comum seja usada",
@@ -196,6 +209,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "14",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das seguintes respostas NÃO completa a próxima frase? “A Fase Preliminar inclui a atividade  de…”",
         "POSSIBLE_ANSWERS": [
             "A. Estabelecendo princípios de arquitetura",
@@ -211,6 +225,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "15",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Um terminal de pagamento em uma das mais de 300 lojas nacionalmente pertencentes a um  varejista de roupas femininas quebra e não pode mais excluir pagamentos com cartão de crédito. De  acordo com o TOGAF, esta é uma Mudança de Simplificação. Em qual fase essa análise é realizada?",
         "POSSIBLE_ANSWERS": [
             "A. fase E",
@@ -226,6 +241,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "16",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Em qual fase do ADM é desenvolvida a seguinte arquitetura: Processos de negócios, seus  relacionamentos entre si e com as pessoas e os princípios que governam o design futuro?",
         "POSSIBLE_ANSWERS": [
             "A. fase A",
@@ -241,6 +257,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "17",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual dos conceitos listados abaixo NÃO é um conceito-chave na transição do desenvolvimento para  a entrega de uma arquitetura de destino?",
         "POSSIBLE_ANSWERS": [
             "A. Desenvolvendo um roteiro de arquitetura.",
@@ -256,6 +273,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "18",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Em qual fase do ADM o valor comercial, o custo dos pacotes de trabalho e das Arquiteturas de  Transição são comunicados às principais partes interessadas?",
         "POSSIBLE_ANSWERS": [
             "A. fase E",
@@ -271,6 +289,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "19",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual atividade abaixo NÃO é realizada como parte ou em paralelo com a Fase G do ADM?",
         "POSSIBLE_ANSWERS": [
             "A. Estabelecer um programa dentro da organização que será responsável por entregar a arquitetura alvo.",
@@ -286,6 +305,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "20",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Na Fase D, a equipe de arquitetura deve considerar os recursos de arquitetura de tecnologia  relevantes. Qual dos recursos listados abaixo NÃO é um desses?",
         "POSSIBLE_ANSWERS": [
             "A. Modelos genéricos de tecnologia relevantes para o setor vertical da indústria da organização.",
@@ -301,6 +321,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "21",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Em qual fase as diferenças (gaps) entre as arquiteturas de linha de base e de destino em todos os  domínios são consolidadas em pacotes de trabalho?",
         "POSSIBLE_ANSWERS": [
             "A. fase E",
@@ -316,6 +337,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "22",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Quais são os 5 critérios que podem ser usados para distinguir um princípio bem escrito de um ruim?",
         "POSSIBLE_ANSWERS": [
             "A. Compreensibilidade, Estabilidade, Completude, Robustez e Clareza",
@@ -331,6 +353,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "23",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual opção abaixo completa a frase: Um cenário de negócios é …    destino.",
         "POSSIBLE_ANSWERS": [
             "A. … uma técnica para obter requisitos técnicos que uma empresa deve atender.",
@@ -346,6 +369,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "24",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual dos seguintes NÃO é uma fonte potencial de diferenças (gaps) ao usar a técnica de Análise de  Diferenças (Gap Analysis) no TOGAF?",
         "POSSIBLE_ANSWERS": [
             "A. Pessoas",
@@ -361,6 +385,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "25",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das seguintes afirmações sobre como a interoperabilidade se manifesta dentro do ADM NÃO é  verdadeira?          ",
         "POSSIBLE_ANSWERS": [
             "A. Na Fase A, a natureza e as considerações de segurança das trocas de informações e serviços são encontradas usando cenários de negócios.",
@@ -376,6 +401,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "26",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das opções a seguir melhor descreve a técnica de avaliação de prontidão para transformação  de negócios?",
         "POSSIBLE_ANSWERS": [
             "A. Uma técnica para definir até que ponto uma organização compartilhará informações e serviços entre departamentos.",
@@ -392,6 +418,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "27",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Complete a frase: “Os riscos de transformação de negócios são identificados pela primeira vez na  Fase ___ e mantidos como artefatos de governança na Fase ___. “",
         "POSSIBLE_ANSWERS": [
             "A.  P e G",
@@ -407,6 +434,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "28",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "O Planejamento Baseado em Capacidades é uma técnica de planejamento de negócios que se  concentra em …",
         "POSSIBLE_ANSWERS": [
             "A. … retorno do investimento.",
@@ -422,6 +450,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "29",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual dos seguintes NÃO é um objetivo da Governança da Arquitetura?",
         "POSSIBLE_ANSWERS": [
             "A. Implementação de um sistema de controles sobre a criação e monitoramento de todos os componentes e atividades de arquitetura, para garantir a introdução, implementação e evolução  efetivas de arquiteturas dentro da organização.",
@@ -437,6 +466,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "30",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Quais são os 5 conceitos-chave dentro do Architecture Governance Framework?",
         "POSSIBLE_ANSWERS": [
             "A. Processo, Contexto, Conteúdo, Repositório e Controle de Fluxo de Processo",
@@ -452,6 +482,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "31",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual dos seguintes NÃO é uma responsabilidade do Comitê de Arquitetura?",
         "POSSIBLE_ANSWERS": [
             "A. Aplicação da Conformidade da Arquitetura",
@@ -467,6 +498,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "32",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Quais são os 6 níveis de Conformidade da Arquitetura?  ",
         "POSSIBLE_ANSWERS": [
             "A. Relevante, Consistente, Compatível, Totalmente Compatível, Totalmente Conforme e Não Conforme",
@@ -482,6 +514,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "33",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das seguintes afirmações NÃO está correta?",
         "POSSIBLE_ANSWERS": [
             "A. Uma parte interessada tem uma ou mais preocupações sobre um sistema, e uma preocupação pode ser compartilhada por uma ou mais partes interessadas.",
@@ -497,6 +530,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "34",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Um ponto de vista (Viewpoint) pode ser descrito usando um conjunto de elementos relacionados. O  que eles são?",
         "POSSIBLE_ANSWERS": [
             "A. Partes Interessadas, Sistema, Modelo e Paisagem (Visão).",
@@ -512,6 +546,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "35",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Em qual fase do ADM é desenvolvido um modelo de alto nível de blocos de construção candidatos?",
         "POSSIBLE_ANSWERS": [
             "A.  Fase A",
@@ -527,6 +562,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "36",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Em qual fase do ADM os blocos de construção são agregados em pacotes de trabalho para abordar  as diferenças (gaps) arquitetônicas?",
         "POSSIBLE_ANSWERS": [
             "A. Fase A",
@@ -542,6 +578,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "37",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual descrição abaixo melhor descreve a natureza de um Contrato de Arquitetura, de acordo com o  TOGAF?",
         "POSSIBLE_ANSWERS": [
             "A. Contratos de Arquitetura são acordos conjuntos entre parceiros de desenvolvimento e patrocinadores sobre as entregas, qualidade e adequação ao propósito de uma arquitetura.",
@@ -557,6 +594,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "38",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das seguintes afirmações NÃO descreve com precisão como o Documento de Definição de  Arquitetura é alterado em cada fase do ADM?        ",
         "POSSIBLE_ANSWERS": [
             "A. Ele é criado pela primeira vez na Fase A, onde é preenchido com artefatos criados para dar suporte à Visão de Arquitetura.",
@@ -572,6 +610,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "39",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "O Modelo de Referência Técnica (TRM) possui três partes principais; o que eles são?",
         "POSSIBLE_ANSWERS": [
             "A. Aplicativos, plataforma de armazenamento de dados e plataforma de comunicações.",
@@ -586,6 +625,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "40",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "A Plataforma de Aplicativos do III-RM contém cinco componentes principais: Aplicativos  Consumidores de Informações, Aplicativos Provedores de Informações e Aplicativos de  Intermediação são três deles. Os outros dois são:",
         "POSSIBLE_ANSWERS": [
             "A. Ferramentas de Desenvolvimento e Utilitários de Monitoramento",
@@ -601,6 +641,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "41",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "De acordo com o TOGAF, quais dos seguintes são os domínios de arquitetura que são subconjuntos  comumente aceitos de uma arquitetura corporativa geral?",
         "POSSIBLE_ANSWERS": [
             "A. Aplicativo, Negócios, Dados, Tecnologia",
@@ -615,6 +656,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "42",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das seguintes afirmações sobre a estrutura do documento TOGAF 9 é verdadeira?",
         "POSSIBLE_ANSWERS": [
             "A. A Parte I descreve a abordagem TOGAF para Arquitetura Corporativa",
@@ -629,6 +671,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "43",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "De acordo com o TOGAF, qual das seguintes opções melhor descreve uma arquitetura corporativa?",
         "POSSIBLE_ANSWERS": [
             "A. Uma arquitetura de uma organização comercial",
@@ -643,6 +686,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "44",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "No TOGAF, qual é a diferença entre um artefato e uma entrega?",
         "POSSIBLE_ANSWERS": [
             "A. Um artefato contém uma ou mais entregas",
@@ -658,6 +702,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "45",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das seguintes listas os principais componentes dentro do TOGAF Architecture Repository?          ",
         "POSSIBLE_ANSWERS": [
             "A. Metamodelo Organizacional, Capacidade de Arquitetura, Paisagem de Arquitetura, Melhores Práticas, Biblioteca de Referência, Estratégia de Conformidade",
@@ -672,6 +717,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "1",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Verdadeiro ou falso: Durante a fase preliminar, você estabelece quais são os princípios de sua  arquitetura.",
         "POSSIBLE_ANSWERS": [
             "A. Verdadeiro",
@@ -684,6 +730,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "2",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Verdadeiro ou falso: ao final da Fase A, você terá um conjunto finalizado e aprovado de  documentos de definição de arquitetura de negócios.    ",
         "POSSIBLE_ANSWERS": [
             "A. Verdadeiro",
@@ -696,6 +743,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "3",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "O que é a visão da arquitetura?    ",
         "POSSIBLE_ANSWERS": [
             "A. Arquiteturas de linha de base e de destino finalizadas e aprovadas que definem o estado atual e  futuro da organização",
@@ -709,6 +757,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "4",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "O principal objetivo da Fase B é:    ",
         "POSSIBLE_ANSWERS": [
             "A. Desenvolvimento da declaração de trabalho, que define o que o projeto realizará",
@@ -722,6 +771,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "5",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Em que ordem o padrão TOGAF recomenda que você execute as tarefas de arquitetura na Fase C?    ",
         "POSSIBLE_ANSWERS": [
             "A. Defina a arquitetura de dados antes da arquitetura do aplicativo",
@@ -736,6 +786,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "6",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual dos seguintes NÃO é um artefato criado durante a Fase C, Arquitetura de Dados?    ",
         "POSSIBLE_ANSWERS": [
             "A. Diagrama de dados conceituais",
@@ -750,6 +801,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "7",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Em que fase é criada a versão preliminar do Architecture Roadmap (versão 0.1)?    ",
         "POSSIBLE_ANSWERS": [
             "A. Fase B, C e D",
@@ -764,6 +816,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "8",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Em qual fase um valor de negócio é atribuído a cada pacote de trabalho?",
         "POSSIBLE_ANSWERS": [
             "A. Fase B, C e D",
@@ -778,6 +831,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "9",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual é o objetivo do contrato de arquitetura criado no final da Fase F?    ",
         "POSSIBLE_ANSWERS": [
             "A. É um contrato entre a equipe de implementação e a equipe de arquitetura que o trabalho de  arquitetura definido será implementado conforme definido e que o processo de governança de  arquitetura será seguido para quaisquer alterações.",
@@ -791,6 +845,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "10",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "O que melhor descreve o papel do arquiteto durante a Fase G?    ",
         "POSSIBLE_ANSWERS": [
             "A. Para determinar quando o próximo ciclo ADM deve começar.",
@@ -804,6 +859,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "11",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Em qual fase o arquiteto deve garantir que as mudanças desenvolvidas e implementadas estão  agregando valor ao negócio conforme o esperado?        ",
         "POSSIBLE_ANSWERS": [
             "A. Fase A",
@@ -818,6 +874,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "12",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual é o foco principal da Certificação Parte 1, chamada TOGAF Foundation?    ",
         "POSSIBLE_ANSWERS": [
             "A. Testar sua compreensão básica do padrão usando uma série de perguntas de múltipla escolha",
@@ -830,6 +887,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "13",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Verdadeiro ou falso: passar no exame da Parte 1 dá a você o nível de certificação TOGAF.",
         "POSSIBLE_ANSWERS": [
             "A. Verdadeiro",
@@ -842,6 +900,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "14",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Você pode fazer os testes da parte 1 e da parte 2 ao mesmo tempo? Ou você tem que esperar um  tempo mínimo antes de fazer cada teste?    ",
         "POSSIBLE_ANSWERS": [
             "A. Sim, você pode fazer os dois juntos em um exame combinado.",
@@ -854,6 +913,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "15",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "De acordo com o TOGAF, as dimensões recomendadas usadas para definir o escopo de uma  arquitetura incluem todas as seguintes, exceto:    ",
         "POSSIBLE_ANSWERS": [
             "A. Domínios de arquitetura",
@@ -869,6 +929,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "16",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual nível do cenário da arquitetura fornece uma visão resumida de longo prazo de toda a  empresa?",
         "POSSIBLE_ANSWERS": [
             "A. Arquitetura de capacidade",
@@ -884,6 +945,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "17",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Que parte do repositório de arquitetura contém especificações para quais arquiteturas devem  estar em conformidade?",
         "POSSIBLE_ANSWERS": [
             "A. Base de Informações de Padrões",
@@ -899,6 +961,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "18",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Uma associação de empresas definiu um modelo de dados para compartilhar informações de  estoque e preços.  Qual das opções a seguir descreve melhor onde esse modelo se encaixaria no Continuum da  Arquitetura?",
         "POSSIBLE_ANSWERS": [
             "A. Arquitetura da Fundação",
@@ -914,6 +977,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "19",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "No Continuum de Soluções, Qual das opções a seguir é a ordem correta das Soluções, da mais  específica à mais genérica?",
         "POSSIBLE_ANSWERS": [
             "A. Sistemas Comuns, Fundação, Indústria, Específico da Organização",
@@ -929,6 +993,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "20",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual documento é usado para iniciar um ciclo TOGAF ADM?",
         "POSSIBLE_ANSWERS": [
             "A. Roteiro de Arquitetura",
@@ -944,6 +1009,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "21",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "De acordo com o TOGAF, qual das opções a seguir é a abordagem usual para desenvolver a  arquitetura de negócios de linha de base (\"Baseline Business Architecture\") se não houver  nenhuma arquitetura criada ou houver poucos ativos de arquitetura?",
         "POSSIBLE_ANSWERS": [
             "A. De baixo para cima",
@@ -959,6 +1025,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "22",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual fase do ADM se concentra na governança e gerenciamento dos Contratos de Arquitetura que  cobrem o processo geral de implementação e implantação?",
         "POSSIBLE_ANSWERS": [
             "A. Gerenciamento de Requisitos",
@@ -974,6 +1041,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "23",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Complete a sentença. Um projeto de consolidação de servidores que não altere as características  operacionais dos aplicativos exigiria _____.",
         "POSSIBLE_ANSWERS": [
             "A. um ciclo ADM completo",
@@ -989,6 +1057,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "24",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual dos seguintes é um objetivo da Fase Preliminar da ADM?",
         "POSSIBLE_ANSWERS": [
             "A. Para definir, escopo e priorizar tarefas de arquitetura",
@@ -1004,6 +1073,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "25",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das seguintes afirmações NÃO descreve corretamente os Princípios de Arquitetura?    uma organização",
         "POSSIBLE_ANSWERS": [
             "A. Eles são mais eficazes quando são adotados e usados em toda a organização",
@@ -1018,6 +1088,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "26",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "De acordo com o TOGAF, qual das opções a seguir melhor descreve como o Enterprise Continuum  é usado na organização e desenvolvimento de uma arquitetura?",
         "POSSIBLE_ANSWERS": [
             "A. É usado para coordenar com as outras estruturas de gerenciamento em uso",
@@ -1033,6 +1104,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "27",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Complete a sentença. Todas as seções a seguir são seções do modelo recomendado para definir os  Princípios de Arquitetura, exceto ___________",
         "POSSIBLE_ANSWERS": [
             "A. Um nome",
@@ -1048,6 +1120,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "28",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Complete a sentença. Em uma análise de diferenças (Gap Analysis), um bloco de construção que  aparece na arquitetura de destino, mas não aparece na arquitetura de linha de base, indica _____",
         "POSSIBLE_ANSWERS": [
             "A. blocos de construção de soluções não conformes",
@@ -1063,6 +1136,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "29",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Complete a sentença. Todos os itens a seguir são partes da estrutura conceitual da estrutura de  governança da arquitetura TOGAF (TOGAF Architecture Governance Framework), exceto ______",
         "POSSIBLE_ANSWERS": [
             "A. Conteúdo",
@@ -1078,6 +1152,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "30",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Complete a sentença.  No TOGAF, os pontos de vista da arquitetura (viewpoints) representam ______________",
         "POSSIBLE_ANSWERS": [
             "A. observações do CIO/CTO",
@@ -1093,6 +1168,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "31",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "O TOGAF fornece diretrizes sobre como usar o ADM para estabelecer uma capacidade de  arquitetura. Qual das opções a seguir NÃO é uma diretriz correta?",
         "POSSIBLE_ANSWERS": [
             "A. Use a mesma abordagem de qualquer outro recurso",
@@ -1107,6 +1183,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "32",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual dos seguintes é definido pelo TOGAF como: a organização fundamental de um sistema  incorporado em seus componentes, sua relação entre si e os princípios que orientam seu design e  evolução?",
         "POSSIBLE_ANSWERS": [
             "A. Arquitetura",
@@ -1122,6 +1199,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "33",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual par das seguintes respostas melhor completa a frase? Blocos de construção de arquitetura  ____, enquanto blocos de construção de solução ____",
         "POSSIBLE_ANSWERS": [
             "A. são montados;  são componentes de função única",
@@ -1137,6 +1215,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "34",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "De acordo com o TOGAF, quem geralmente inicia uma Solicitação de Trabalho de Arquitetura?",
         "POSSIBLE_ANSWERS": [
             "A. A organização da arquitetura",
@@ -1152,6 +1231,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "35",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das seguintes é uma afirmação verdadeira sobre o Modelo de Referência Técnica TOGAF  (TRM)?        ",
         "POSSIBLE_ANSWERS": [
             "A. O Método de Desenvolvimento de Arquitetura TOGAF exige o uso do Modelo de Referência Técnica para grandes projetos de arquitetura complexos",
@@ -1167,6 +1247,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "36",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Complete a sentença. O Modelo de Referência de Infraestrutura de Informação Integrada (III-RM)  é um exemplo de um modelo de referência de arquitetura de ______",
         "POSSIBLE_ANSWERS": [
             "A. Aplicação",
@@ -1181,6 +1262,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "37",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Complete a sentença. De acordo com o TOGAF, a maneira mais simples de pensar sobre o  Continuum Corporativo é como um (a) _____",
         "POSSIBLE_ANSWERS": [
             "A. Banco de dados de configuração",
@@ -1196,6 +1278,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "38",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual classe de informação arquitetônica dentro do repositório de arquitetura define os processos  que suportam a governança do repositório de arquitetura?",
         "POSSIBLE_ANSWERS": [
             "A. Capacidade de arquitetura",
@@ -1211,6 +1294,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "39",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual dos seguintes é o artefato mais genérico no Architecture Continuum?",
         "POSSIBLE_ANSWERS": [
             "A. Arquitetura de Sistemas Comuns",
@@ -1226,6 +1310,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "40",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Complete a sentença. À medida que a arquitetura evolui, os ativos no Solutions Continuum  progridem para um (a) _____",
         "POSSIBLE_ANSWERS": [
             "A. Arquitetura de Sistemas Comuns",
@@ -1241,6 +1326,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "41",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual dos seguintes é o modelo mais relevante para uso na Fase C, Arquitetura de Aplicativo?  www.",
         "POSSIBLE_ANSWERS": [
             "A. O modelo de dados ARTS",
@@ -1256,6 +1342,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "42",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das opções a seguir NÃO faz parte da abordagem da Fase H – Gerenciamento de mudanças  na arquitetura?",
         "POSSIBLE_ANSWERS": [
             "A. Cenários de Negócios",
@@ -1270,6 +1357,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "43",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das seguintes afirmações descreve melhor o gerenciamento de riscos no ADM?      ",
         "POSSIBLE_ANSWERS": [
             "A. A análise de risco é melhor conduzida na fase de Visão da Arquitetura para que o risco seja eliminado nas fases subsequentes",
@@ -1285,6 +1373,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "44",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das opções a seguir melhor descreve o planejamento baseado em capacidade?",
         "POSSIBLE_ANSWERS": [
             "A. Uma técnica de planejamento de negócios que se concentra nos resultados de negócios",
@@ -1299,6 +1388,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "45",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual dos seguintes fornece uma base para tomar decisões de arquitetura e planejamento,  enquadrar políticas, procedimentos e padrões e apoiar a resolução de situações contraditórias?",
         "POSSIBLE_ANSWERS": [
             "A. Princípios de arquitetura",
@@ -1314,6 +1404,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "46",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das seguintes é uma técnica recomendada pelo TOGAF para ajudar a identificar e entender os  requisitos?",
         "POSSIBLE_ANSWERS": [
             "A. Modelos de Maturidade da Arquitetura",
@@ -1329,6 +1420,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "47",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual dos seguintes é recomendado para definir requisitos e articular a Visão de Arquitetura criada  na Fase A?",
         "POSSIBLE_ANSWERS": [
             "A. Cenário de negócios",
@@ -1344,6 +1436,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "48",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das seguintes é a prática pela qual a arquitetura corporativa e outras arquiteturas são  gerenciadas e controladas em nível corporativo?",
         "POSSIBLE_ANSWERS": [
             "A. Governança de arquitetura",
@@ -1359,6 +1452,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "49",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual dos seguintes o TOGAF Parte VII recomenda para implementar um Recurso de Arquitetura  Corporativa?",
         "POSSIBLE_ANSWERS": [
             "A. Desenvolva um Roteiro de Arquitetura",
@@ -1374,6 +1468,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "50",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual dos seguintes é um aspecto essencial da governança de arquitetura?",
         "POSSIBLE_ANSWERS": [
             "A. Criação do Documento de Definição de Arquitetura",
@@ -1389,6 +1484,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "51",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Complete a sentença. No TOGAF, toda visão (paisagem) de arquitetura tem um (A. ____ associado  (A. que a descreve, pelo menos implicitamente.",
         "POSSIBLE_ANSWERS": [
             "A. bloco de construção de arquitetura",
@@ -1404,6 +1500,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "52",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das seguintes afirmações descreve melhor o propósito da Especificação de Requisitos de  Arquitetura?",
         "POSSIBLE_ANSWERS": [
             "A. Um documento que desencadeia o início de um ciclo de desenvolvimento de arquitetura",
@@ -1418,6 +1515,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "53",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das seguintes opções melhor descreve o propósito do Plano de Comunicações?     ",
         "POSSIBLE_ANSWERS": [
             "A. Para garantir que as informações de arquitetura sejam comunicadas às partes interessadas certas  no momento certo",
@@ -1432,6 +1530,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "54",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Complete a sentença. O Modelo de Referência Técnica TOGAF _____",
         "POSSIBLE_ANSWERS": [
             "A. é um exemplo e deve ser adaptado às necessidades de uma organização",
@@ -1447,6 +1546,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "55",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual dos seguintes componentes do TOGAF foi criado para permitir que os arquitetos projetem  arquiteturas abordando o fluxo de informações sem limites?",
         "POSSIBLE_ANSWERS": [
             "A. O repositório de arquitetura",
@@ -1461,6 +1561,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "56",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das opções a seguir melhor descreve o Modelo de Referência Técnica TOGAF?    ",
         "POSSIBLE_ANSWERS": [
             "A. É um modelo de dados detalhado que pode ser adaptado para setores específicos",
@@ -1475,6 +1576,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "57",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das seguintes afirmações sobre a estrutura do documento TOGAF 9 é verdadeira?          ",
         "POSSIBLE_ANSWERS": [
             "A. Parte I, o Enterprise Continuum, descreve um modelo para estruturar um repositório virtual",
@@ -1490,6 +1592,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "58",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual fase do ADM garante que os projetos de implementação estejam em conformidade com a  arquitetura definida?",
         "POSSIBLE_ANSWERS": [
             "A. Gerenciamento de Requisitos",
@@ -1505,6 +1608,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "59",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Complete a sentença. A Fase de Gerenciamento de Requisitos ___________.",
         "POSSIBLE_ANSWERS": [
             "A. aborda e resolve os requisitos entre as fases do ADM",
@@ -1520,6 +1624,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "60",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das seguintes arquiteturas no Architecture Continuum contém os elementos de arquitetura  mais reutilizáveis?",
         "POSSIBLE_ANSWERS": [
             "A. Arquiteturas de sistemas comuns",
@@ -1534,6 +1639,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "1",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual documento é enviado da organização patrocinadora para a organização de arquitetura para  acionar o início de um ciclo ADM?",
         "POSSIBLE_ANSWERS": [
             "A. Contrato de Arquitetura",
@@ -1549,6 +1655,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "2",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "De acordo com o TOGAF, qual das opções a seguir melhor descreve a governança de arquitetura?      ",
         "POSSIBLE_ANSWERS": [
             "A. Um mecanismo de categorização para arquitetura e artefatos de solução",
@@ -1564,6 +1671,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "3",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual componente dentro do repositório de arquitetura contém as melhores práticas ou materiais  de modelo que podem ser usados para construir arquiteturas?",
         "POSSIBLE_ANSWERS": [
             "A. Capacidade de Arquitetura",
@@ -1579,6 +1687,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "4",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Complete a sentença. De acordo com o TOGAF, todos os itens a seguir são responsabilidades de  um Comitê de Arquitetura, exceto ______________________.",
         "POSSIBLE_ANSWERS": [
             "A. Alocando recursos para projetos de arquitetura",
@@ -1594,6 +1703,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "5",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "De acordo com o TOGAF, qual das opções a seguir melhor descreve o propósito de uma Avaliação  de Conformidade?      ",
         "POSSIBLE_ANSWERS": [
             "A. Para garantir que as informações de arquitetura sejam comunicadas às partes interessadas certas no momento certo",
@@ -1608,6 +1718,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "6",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das opções a seguir descreve um objetivo principal da fase de arquitetura de tecnologia?    ",
         "POSSIBLE_ANSWERS": [
             "A. Para definir a arquitetura da solução necessária para suportar a Arquitetura do Aplicativo",
@@ -1623,6 +1734,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "7",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das seguintes afirmações descreve melhor por que o ADM deve ser adaptado?",
         "POSSIBLE_ANSWERS": [
             "A. Para alinhá-lo mais perto do negócio",
@@ -1637,6 +1749,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "8",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das opções a seguir descreve melhor o propósito de um cenário de negócios?    Baseado em Capacidade  desenvolvida  desenvolvida",
         "POSSIBLE_ANSWERS": [
             "A. Para definir e planejar uma transformação de arquitetura corporativa com base no Planejamento",
@@ -1652,6 +1765,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "9",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das seguintes afirmações descreve melhor como os Princípios de Arquitetura são usados no  ADM?",
         "POSSIBLE_ANSWERS": [
             "A. Eles são usados para definir a estrutura e as metodologias detalhadas",
@@ -1667,6 +1781,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "10",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual dos seguintes é um objetivo da Fase A do TOGAF ADM?",
         "POSSIBLE_ANSWERS": [
             "A. Alocar os recursos necessários para implementar o projeto de arquitetura",
@@ -1682,6 +1797,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "11",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Complete a sentença. O TOGAF 9 Parte III fornece um conjunto de recursos que podem ser usados  para adaptar e modificar o ____________.",
         "POSSIBLE_ANSWERS": [
             "A. Capacidade de Arquitetura",
@@ -1697,6 +1813,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "12",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das opções a seguir melhor descreve como o TOGAF define uma empresa?",
         "POSSIBLE_ANSWERS": [
             "A. Qualquer coleção de organizações que tem um conjunto comum de objetivos",
@@ -1712,6 +1829,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "13",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das opções a seguir é definida pelo TOGAF como uma representação de um sistema da  perspectiva de um conjunto relacionado de preocupações?",
         "POSSIBLE_ANSWERS": [
             "A. Bloco de construção da arquitetura",
@@ -1727,6 +1845,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "14",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "No Solutions Continuum, qual das opções a seguir é a ordem correta de soluções, variando de  solução genérica a solução específica da empresa?    ",
         "POSSIBLE_ANSWERS": [
             "A. Fundação, Sistemas Comuns, Indústria, Específico da Organização",
@@ -1740,6 +1859,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "15",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das opções a seguir descreve melhor o objetivo da Fase E do ADM?",
         "POSSIBLE_ANSWERS": [
             "A. Para definir os planos iniciais de implementação",
@@ -1755,6 +1875,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "16",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das seguintes categorias do modelo de Categorização de Documentos consiste nas partes  normativas do TOGAF que são consideradas centrais para seu uso?",
         "POSSIBLE_ANSWERS": [
             "A. Núcleo TOGAF",
@@ -1770,6 +1891,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "17",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das seguintes afirmações sobre TOGAF Building Blocks é verdadeira?      ",
         "POSSIBLE_ANSWERS": [
             "A. Os blocos de construção em um nível funcional são conhecidos como blocos de construção de soluções",
@@ -1784,6 +1906,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "18",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual dos seguintes é responsável pela aceitação e aprovação de uma revisão de conformidade de  arquitetura?",
         "POSSIBLE_ANSWERS": [
             "A. Comitê de Arquitetura",
@@ -1799,6 +1922,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "19",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "De acordo com o TOGAF, em qual fase do ADM deve ocorrer uma avaliação inicial da prontidão da  transformação de negócios?",
         "POSSIBLE_ANSWERS": [
             "A. Fase Preliminar",
@@ -1814,6 +1938,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "20",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Complete a sentença. O Método de Desenvolvimento de Arquitetura produz conteúdo a ser  armazenado no Repositório, que é classificado de acordo com o __________________.",
         "POSSIBLE_ANSWERS": [
             "A. Diretrizes e técnicas de ADM",
@@ -1829,6 +1954,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "21",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das opções a seguir descreve melhor o estado dos artefatos de arquitetura à medida que um  projeto progride pelas Fases A a D do ADM?",
         "POSSIBLE_ANSWERS": [
             "A. Os artefatos são transformados em arquiteturas de solução",
@@ -1844,6 +1970,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "22",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das seguintes afirmações sobre pontos de vista está correta?",
         "POSSIBLE_ANSWERS": [
             "A. Um ponto de vista é sempre específico para uma arquitetura",
@@ -1858,6 +1985,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "23",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "De acordo com o TOGAF, em qual sequência a Arquitetura de Aplicativos e a Arquitetura de Dados  devem ser desenvolvidas na Fase C?    ",
         "POSSIBLE_ANSWERS": [
             "A. A arquitetura de aplicativos deve ser desenvolvida primeiro, depois a arquitetura de dados",
@@ -1872,6 +2000,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "24",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Uma etapa fundamental na validação de uma arquitetura de destino proposta é considerar o que  pode ter sido esquecido. Qual técnica o TOGAF recomenda para resolver esse problema?",
         "POSSIBLE_ANSWERS": [
             "A. Avaliação de prontidão para transformação de negócios",
@@ -1887,6 +2016,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "25",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Complete a sentença. Na Fase Preliminar, todos os itens a seguir fazem parte da preparação da  organização para empreender uma arquitetura corporativa bem-sucedida, exceto __________.",
         "POSSIBLE_ANSWERS": [
             "A. definindo princípios de arquitetura",
@@ -1902,6 +2032,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "26",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual fase do ADM estabelece um conjunto de Princípios?",
         "POSSIBLE_ANSWERS": [
             "A. Fase Preliminar",
@@ -1917,6 +2048,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "27",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Em qual fase do ADM a técnica de cenário de negócios é mais proeminente?",
         "POSSIBLE_ANSWERS": [
             "A. Uma preliminar",
@@ -1932,6 +2064,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "28",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das seguintes afirmações sobre a fase de Gerenciamento de Requisitos é verdadeira?",
         "POSSIBLE_ANSWERS": [
             "A. Todos os requisitos alimentados na fase são priorizados e aqueles de baixa prioridade são adiados até a próxima iteração do ciclo ADM",
@@ -1947,6 +2080,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "29",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das opções a seguir melhor descreve a próxima etapa em uma Revisão de Conformidade de  Arquitetura, uma vez que o escopo da revisão foi determinado?",
         "POSSIBLE_ANSWERS": [
             "A. Entreviste os diretores do projeto para obter informações básicas",
@@ -1962,6 +2096,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "30",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Complete a sentença. Todos os itens a seguir descrevem o objetivo de uma revisão de  conformidade da arquitetura, exceto ______________.",
         "POSSIBLE_ANSWERS": [
             "A. determinar a prontidão técnica de um projeto",
@@ -1977,6 +2112,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "31",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "De acordo com o TOGAF, qual das seguintes etapas nas Fases B, C e D ocorre antes do  desenvolvimento da linha de base ou das arquiteturas de destino?",
         "POSSIBLE_ANSWERS": [
             "A. Realizar revisão formal das partes interessadas",
@@ -1992,6 +2128,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "32",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual fase do ADM é responsável por avaliar o desempenho da arquitetura e fazer recomendações  de mudança?",
         "POSSIBLE_ANSWERS": [
             "A. Fase A",
@@ -2007,6 +2144,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "33",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual modelo dentro do TOGAF destina-se a auxiliar no gerenciamento de lançamento da  especificação TOGAF?",
         "POSSIBLE_ANSWERS": [
             "A. O Modelo de Maturidade de Capacidade",
@@ -2022,6 +2160,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "34",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Complete a sentença. O Solutions Continuum representa implementações das arquiteturas nos  níveis correspondentes do (A. _______________.",
         "POSSIBLE_ANSWERS": [
             "A. Capacidade de Arquitetura",
@@ -2037,6 +2176,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "35",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "De acordo com o TOGAF, como o Continuum Corporativo é usado na organização e  desenvolvimento de uma arquitetura?",
         "POSSIBLE_ANSWERS": [
             "A. Para ajudar na comunicação e compreensão entre arquitetos",
@@ -2052,6 +2192,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "36",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual técnica o TOGAF recomenda que se concentra em alcançar resultados de negócios em vez de  apenas resultados técnicos?",
         "POSSIBLE_ANSWERS": [
             "A. Avaliação de prontidão para transformação de negócios",
@@ -2067,6 +2208,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "37",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual dos seguintes afirma o TOGAF é um objetivo para a Fase A: Visão da Arquitetura?",
         "POSSIBLE_ANSWERS": [
             "A. Para criar uma estratégia de implementação e migração",
@@ -2081,6 +2223,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "38",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Em qual das seguintes fases do ADM os blocos de construção se tornam específicos da  implementação?",
         "POSSIBLE_ANSWERS": [
             "A. Fase A",
@@ -2096,6 +2239,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "39",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das opções a seguir melhor descreve uma abordagem para adaptar o ADM na situação em  que os princípios de negócios determinam que uma solução em pacote seja usada?      ",
         "POSSIBLE_ANSWERS": [
             "A. A conclusão da Arquitetura de Negócios deve seguir a Arquitetura de Sistemas de Informação",
@@ -2111,6 +2255,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "40",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual domínio de arquitetura é recomendado para ser o primeiro trabalho de arquitetura realizado  no ciclo ADM?",
         "POSSIBLE_ANSWERS": [
             "A. Arquitetura do Aplicativo",
@@ -2125,6 +2270,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "41",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Complete a sentença. De acordo com o TOGAF, todos os itens a seguir são responsabilidades de  um Comitê de Arquitetura, exceto ______________________.",
         "POSSIBLE_ANSWERS": [
             "A. Garantir a consistência entre as subarquiteturas",
@@ -2140,6 +2286,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "42",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual seção do documento TOGAF contém um metamodelo estruturado para artefatos  arquitetônicos?",
         "POSSIBLE_ANSWERS": [
             "A. Parte II: Método de Desenvolvimento de Arquitetura",
@@ -2155,6 +2302,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "43",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das seguintes afirmações sobre TOGAF Building Blocks é verdadeira?",
         "POSSIBLE_ANSWERS": [
             "A. Um bom Building Block não deve ser composto por outros Building Blocks",
@@ -2169,6 +2317,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "44",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "De acordo com o TOGAF, qual das opções a seguir é uma característica de uma arquitetura de  fundação?      ",
         "POSSIBLE_ANSWERS": [
             "A. Ele contém apenas blocos de construção da solução",
@@ -2184,6 +2333,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "45",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das seguintes opções melhor descreve o propósito da Declaração de Trabalho de  Arquitetura?",
         "POSSIBLE_ANSWERS": [
             "A. Ele contém uma avaliação dos requisitos de arquitetura atuais",
@@ -2199,6 +2349,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "46",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das opções a seguir descreve um objetivo da Fase Preliminar?",
         "POSSIBLE_ANSWERS": [
             "A. Desenvolva uma visão da arquitetura corporativa proposta",
@@ -2214,6 +2365,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "47",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das opções a seguir melhor descreve a classificação TOGAF na Fase H para uma mudança de  re-arquitetura?      ",
         "POSSIBLE_ANSWERS": [
             "A. Uma mudança impulsionada por um requisito para derivar valor adicional do investimento existente",
@@ -2229,6 +2381,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "48",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das opções a seguir descreve melhor o objetivo da técnica de Avaliação de prontidão para  transformação de negócios?",
         "POSSIBLE_ANSWERS": [
             "A. Para determinar se a organização está pronta para passar por mudanças",
@@ -2244,6 +2397,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "49",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Em qual fase do ADM o Plano de Implementação e Migração é coordenado com outros  frameworks?",
         "POSSIBLE_ANSWERS": [
             "A. Fase A",
@@ -2259,6 +2413,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "50",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das opções a seguir é descrita pelo TOGAF Architecture Content Framework como um tipo de  artefato que mostra listas de coisas?",
         "POSSIBLE_ANSWERS": [
             "A. Bloco de construção",
@@ -2274,6 +2429,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "51",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "De acordo com o TOGAF, qual dos seguintes tipos de arquitetura tem características principais que  incluem padrões de sistema aberto e blocos de construção gerais?",
         "POSSIBLE_ANSWERS": [
             "A. Arquitetura de Sistemas Comuns",
@@ -2288,6 +2444,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "52",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "O TOGAF usa uma convenção de numeração de versão para ilustrar a evolução das Definições de  Arquitetura Baseline e Target. Qual número de versão nesta convenção indica uma arquitetura  detalhada e formalmente revisada?",
         "POSSIBLE_ANSWERS": [
             "A. Versão 0.1",
@@ -2303,6 +2460,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "53",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das opções a seguir descreve melhor o Método de Desenvolvimento de Arquitetura TOGAF?",
         "POSSIBLE_ANSWERS": [
             "A. Um processo para gerenciar requisitos de arquitetura",
@@ -2318,6 +2476,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "54",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das opções a seguir descreve melhor a necessidade de o processo de ADM ser governado?",
         "POSSIBLE_ANSWERS": [
             "A. Para construir uma descrição de arquitetura completa e de cima para baixo",
@@ -2332,6 +2491,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "55",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual dos seguintes o TOGAF recomenda para uso no desenvolvimento da Paisagem (Visão) de  Arquitetura?",
         "POSSIBLE_ANSWERS": [
             "A. Princípios de arquitetura",
@@ -2347,6 +2507,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "56",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Complete a sentença. O TOGAF define cinco critérios para um bom conjunto de princípios:  Compreensível, Robusto, Completo, Consistente e_____.",
         "POSSIBLE_ANSWERS": [
             "A. Ágil",
@@ -2362,6 +2523,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "57",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das opções a seguir melhor descreve a Base de Informações de Padrões?        ",
         "POSSIBLE_ANSWERS": [
             "A. Uma área de repositório contendo uma descrição da estrutura e método de arquitetura específicos da organização",
@@ -2377,6 +2539,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "58",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das opções a seguir melhor descreve o objetivo da técnica de análise de diferenças (gap  analysis)?",
         "POSSIBLE_ANSWERS": [
             "A. Para determinar os níveis de serviço para a arquitetura",
@@ -2392,6 +2555,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "59",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Complete a frase selecionando o par de palavras aplicável. Um (a) _____ é usado na Fase A para  ajudar a identificar e entender os negócios _____ que a arquitetura deve abordar.",
         "POSSIBLE_ANSWERS": [
             "A. modelo de atividade, perspectiva",
@@ -2407,6 +2571,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "60",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "De acordo com o TOGAF, qual das opções a seguir melhor descreve um padrão de arquitetura?",
         "POSSIBLE_ANSWERS": [
             "A. Uma descrição detalhada das interfaces entre os blocos de construção",
@@ -2422,6 +2587,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "61",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Complete a sentença. A categorização de risco do TOGAF após a implementação das ações de  mitigação é conhecida como nível de risco _______.",
         "POSSIBLE_ANSWERS": [
             "A. Uma crítica",
@@ -2437,6 +2603,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "62",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das seguintes afirmações melhor descreve o processo de Gerenciamento de Requisitos?",
         "POSSIBLE_ANSWERS": [
             "A. É usado para desenvolver requisitos para Arquiteturas de Transição que agregam valor comercial",
@@ -2452,6 +2619,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "63",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das opções a seguir o TOGAF descreve como \"uma descrição formal de um sistema ou um  plano detalhado do sistema no nível do componente para orientar sua implementação\"?",
         "POSSIBLE_ANSWERS": [
             "A. Arquitetura",
@@ -2467,6 +2635,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "64",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Complete a sentença. A Paisagem de Arquitetura é dividido em três níveis, Estratégico, Segmento  e ____________.",
         "POSSIBLE_ANSWERS": [
             "A. Linha de base",
@@ -2482,6 +2651,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "65",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual parte do TOGAF descreve taxonomias para categorizar as saídas da atividade de arquitetura  em termos de reutilização?",
         "POSSIBLE_ANSWERS": [
             "A. Diretrizes e técnicas de ADM",
@@ -2496,6 +2666,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "66",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das opções a seguir descreve a finalidade de uma revisão de conformidade de arquitetura?",
         "POSSIBLE_ANSWERS": [
             "A. Identificando riscos de transformação de negócios para um projeto de arquitetura",
@@ -2510,6 +2681,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "67",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das opções a seguir o TOGAF descreve como um pacote de funcionalidade definido para  atender às necessidades de negócios em uma organização?",
         "POSSIBLE_ANSWERS": [
             "A. Um aplicativo",
@@ -2525,6 +2697,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "68",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "TOGAF Parte VII, Architecture Capability Framework recomenda o uso de um ciclo ADM para  estabelecer uma prática de arquitetura. Neste cenário, qual arquitetura descreveria a estrutura  organizacional para a prática de arquitetura?",
         "POSSIBLE_ANSWERS": [
             "A. Arquitetura do Aplicativo",
@@ -2539,6 +2712,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "69",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das opções a seguir melhor descreve um propósito da técnica de Cenários de Negócios?",
         "POSSIBLE_ANSWERS": [
             "A. Detectar erros em uma arquitetura de projeto antecipadamente",
@@ -2554,6 +2728,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "70",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Complete a sentença. O processo de Gerenciamento de Requisitos é usado para______.",
         "POSSIBLE_ANSWERS": [
             "A. desenvolver requisitos para Arquiteturas de Transição que agregam valor comercial",
@@ -2569,6 +2744,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "71",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das opções a seguir descreve o Modelo de Referência Técnica TOGAF?",
         "POSSIBLE_ANSWERS": [
             "A. Uma Arquitetura de Sistemas Comum",
@@ -2584,6 +2760,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "72",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Complete a sentença. De acordo com o TOGAF, um objetivo da Fase G, Governança de  Implementação, é ______________.    ",
         "POSSIBLE_ANSWERS": [
             "A. avaliar o desempenho da arquitetura e fazer recomendações para mudanças",
@@ -2599,6 +2776,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "73",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "De acordo com o TOGAF, qual das seguintes atividades é descrita como parte da abordagem na  Fase Preliminar do ADM?",
         "POSSIBLE_ANSWERS": [
             "A. Criando a entrega da Visão da Arquitetura",
@@ -2614,6 +2792,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "74",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Em qual fase do ciclo ADM os blocos de construção se tornam específicos da implementação?",
         "POSSIBLE_ANSWERS": [
             "A. Fase A",
@@ -2629,6 +2808,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "75",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "De acordo com o TOGAF, qual das opções a seguir melhor descreve o propósito de um documento  de definição de arquitetura?      ",
         "POSSIBLE_ANSWERS": [
             "A. Para atuar como um contêiner de entrega para artefatos criados durante um projeto",
@@ -2644,6 +2824,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "76",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das opções a seguir melhor descreve o TOGAF Architecture Governance Framework?    associados  corretagem",
         "POSSIBLE_ANSWERS": [
             "A. Uma abordagem para garantir a eficácia das arquiteturas de uma organização",
@@ -2659,6 +2840,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "77",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das opções a seguir descreve um objetivo da Fase F: Fase de planejamento da migração?",
         "POSSIBLE_ANSWERS": [
             "A. Desenvolva uma arquitetura de tecnologia de destino",
@@ -2674,6 +2856,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "78",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das opções a seguir descreve melhor o objetivo da técnica de análise de diferenças (gap  analysis)?",
         "POSSIBLE_ANSWERS": [
             "A. Detectar erros em uma arquitetura de projeto antecipadamente",
@@ -2689,6 +2872,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "79",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "De acordo com o TOGAF, quais dos seguintes definem regras e diretrizes gerais para o uso de  ativos em toda a empresa?",
         "POSSIBLE_ANSWERS": [
             "A. Princípios de arquitetura",
@@ -2704,6 +2888,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "80",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual Fase ADM inclui a obtenção de aprovação para a Declaração de Trabalho de Arquitetura?",
         "POSSIBLE_ANSWERS": [
             "A. Fase Preliminar",
@@ -2719,6 +2904,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "81",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "O TOGAF usa uma convenção de numeração de versão para ilustrar a evolução das Definições de  Arquitetura Baseline e Target. Qual número de versão nesta convenção indica um esboço de alto  nível da arquitetura?",
         "POSSIBLE_ANSWERS": [
             "A. Versão 1.0",
@@ -2734,6 +2920,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "82",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Em qual fase do ADM o objetivo é garantir que a arquitetura alcance seu valor de negócio original?",
         "POSSIBLE_ANSWERS": [
             "A. Fase E",
@@ -2749,6 +2936,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "83",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das opções a seguir é descrita pelo TOGAF Architecture Content Framework como um tipo de  artefato que mostra as relações entre as coisas?",
         "POSSIBLE_ANSWERS": [
             "A. Bloco de construção",
@@ -2764,6 +2952,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "84",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Complete a sentença. O TOGAF descreve o papel de um Contrato de Arquitetura como_______.",
         "POSSIBLE_ANSWERS": [
             "A. um acordo entre parceiros de desenvolvimento e patrocinadores sobre os produtos de arquitetura",
@@ -2778,6 +2967,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "85",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual dos seguintes o TOGAF descreve como \"a estrutura dos componentes, suas inter-relações e  os princípios que orientam seu design e evolução ao longo do tempo\"?",
         "POSSIBLE_ANSWERS": [
             "A. Uma vista",
@@ -2793,6 +2983,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "86",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual parte do TOGAF descreve uma abordagem passo a passo para desenvolver uma arquitetura  corporativa?",
         "POSSIBLE_ANSWERS": [
             "A. Diretrizes e técnicas de ADM",
@@ -2808,6 +2999,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "87",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Complete a sentença. De acordo com o documento TOGAF, um (A. ___________ é uma  representação de um sistema da perspectiva de um conjunto relacionado de _______________.",
         "POSSIBLE_ANSWERS": [
             "A. ponto de vista, pontos de vista",
@@ -2823,6 +3015,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "88",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual é o primeiro passo nas Fases B, C e D do desenvolvimento da arquitetura?",
         "POSSIBLE_ANSWERS": [
             "A. Desenvolver a descrição da arquitetura de linha de base",
@@ -2838,6 +3031,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "89",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "A Parte VII do TOGAF descreve como o ADM pode ser usado para estabelecer um recurso de  arquitetura em uma organização. Qual arquitetura descreveria os processos de arquitetura e a  estrutura da organização?",
         "POSSIBLE_ANSWERS": [
             "A. Arquitetura de tecnologia",
@@ -2853,6 +3047,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "90",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual parte do documento TOGAF discute os processos, habilidades e funções para operar uma  função de arquitetura dentro de uma empresa?",
         "POSSIBLE_ANSWERS": [
             "A. Modelos de Referência TOGAF",
@@ -2868,6 +3063,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "91",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Quais são os quatro domínios de arquitetura com os quais o padrão TOGAF lida?",
         "POSSIBLE_ANSWERS": [
             "A. Capacidade, Segmento, Corporativo, Federado",
@@ -2883,6 +3079,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "92",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual fase do ADM inclui o estabelecimento da Capacidade de Arquitetura e a definição dos  Princípios de Arquitetura?",
         "POSSIBLE_ANSWERS": [
             "A. Fase C: Arquitetura de Dados",
@@ -2898,6 +3095,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "93",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual é o objetivo da Fase Preliminar do ADM?",
         "POSSIBLE_ANSWERS": [
             "A. Desenvolver uma visão do valor comercial a ser entregue pela arquitetura corporativa proposta",
@@ -2912,6 +3110,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "94",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual é um objetivo da Fase G do ADM, Governança de Implementação?    Alvo",
         "POSSIBLE_ANSWERS": [
             "A. Para garantir que os projetos de implementação estejam em conformidade com a Arquitetura",
@@ -2927,6 +3126,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "95",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual número de versão o TOGAF ADM usa para indicar que um esboço de alto nível da arquitetura  está em vigor?",
         "POSSIBLE_ANSWERS": [
             "A. Versão 0.5",
@@ -2942,6 +3142,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "96",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Em que Fase ADM é focada a criação de um Plano de Implementação e Migração em cooperação  com o portfólio e os gerentes de projeto?",
         "POSSIBLE_ANSWERS": [
             "A. Fase A",
@@ -2957,6 +3158,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "97",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Complete a sentença. As principais áreas de informação gerenciadas por um repositório de  governança devem incluir __________________.",
         "POSSIBLE_ANSWERS": [
             "A. Soluções de sistemas comuns, soluções específicas da organização e soluções do setor",
@@ -2972,6 +3174,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "98",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Complete a sentença. No TOGAF Architecture Content Framework, um produto de trabalho que  mostra o relacionamento entre as coisas é conhecido como ___________.",
         "POSSIBLE_ANSWERS": [
             "A. entrega",
@@ -2987,6 +3190,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "99",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Dentro do Repositório de Arquitetura, o que inclui a classe de informação conhecida como  Recurso de Arquitetura?    de arquitetura e um metamodelo para conteúdo de arquitetura",
         "POSSIBLE_ANSWERS": [
             "A. Parâmetros, estruturas e processos para apoiar a governança do repositório",
@@ -3002,6 +3206,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "100",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Em qual fase do ADM o processo de gerenciamento de valor e mudança determina as  circunstâncias em que o Ciclo de Desenvolvimento da Arquitetura será iniciado para desenvolver  uma nova arquitetura?",
         "POSSIBLE_ANSWERS": [
             "A. Fase H",
@@ -3017,6 +3222,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "101",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das opções a seguir melhor descreve o propósito da Especificação de Requisitos de  Arquitetura?",
         "POSSIBLE_ANSWERS": [
             "A. É enviado pelo patrocinador e aciona o início de um ciclo de desenvolvimento de arquitetura",
@@ -3032,6 +3238,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "102",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Complete a sentença. Um conjunto de princípios de arquitetura que abrange todas as situações  percebidas atende aos critérios recomendados de ___________.",
         "POSSIBLE_ANSWERS": [
             "A. estabilidade",
@@ -3047,6 +3254,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "103",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "De acordo com o TOGAF, qual das opções a seguir melhor descreve um padrão de arquitetura?    ",
         "POSSIBLE_ANSWERS": [
             "A. Uma descrição detalhada das interfaces entre os blocos de construção",
@@ -3062,6 +3270,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "104",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Quais dos seguintes são interesses importantes para as partes interessadas em um sistema?",
         "POSSIBLE_ANSWERS": [
             "A. Requisitos",
@@ -3077,6 +3286,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "105",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Um ciclo ADM pode ser usado para estabelecer um recurso de arquitetura dentro de uma  organização. Qual arquitetura produzida em tal ciclo descreveria os processos de arquitetura e a  estrutura da organização?",
         "POSSIBLE_ANSWERS": [
             "A. Arquitetura de tecnologia",
@@ -3091,6 +3301,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "106",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "O que o padrão TOGAF define como a estrutura dos componentes, suas inter-relações e os  princípios que orientam seu design e evolução ao longo do tempo?",
         "POSSIBLE_ANSWERS": [
             "A. Uma Paisagem de arquitetura",
@@ -3106,6 +3317,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "107",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das opções a seguir descreve melhor o Método de Desenvolvimento de Arquitetura TOGAF?",
         "POSSIBLE_ANSWERS": [
             "A. Um método para criar um repositório de arquitetura",
@@ -3121,6 +3333,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "108",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Complete a sentença. Um projeto de consolidação de servidores que não altere as características  operacionais dos aplicativos exigiria _____.",
         "POSSIBLE_ANSWERS": [
             "A. um ciclo ADM completo",
@@ -3136,6 +3349,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "109",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Na Fase Preliminar, Qual dos itens a seguir orienta os requisitos e as métricas de desempenho ao  definir o escopo do trabalho de arquitetura corporativa?",
         "POSSIBLE_ANSWERS": [
             "A. Governança de arquitetura",
@@ -3151,6 +3365,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "110",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "A Fase de Gerenciamento de Requisitos é responsável por Qual das seguintes atividades?",
         "POSSIBLE_ANSWERS": [
             "A. Atendendo aos requisitos",
@@ -3166,6 +3381,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "111",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Complete a sentença. A técnica de Avaliação de prontidão para transformação de negócios é  focada principalmente em ___    solução",
         "POSSIBLE_ANSWERS": [
             "A. determinar se a organização está pronta para aceitar a mudança",
@@ -3181,6 +3397,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "112",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das opções a seguir lista os cinco critérios de qualidade para definir os Princípios de  Arquitetura?",
         "POSSIBLE_ANSWERS": [
             "A. Racional, Explicado, Preciso, Declarado, Identificável",
@@ -3195,6 +3412,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "113",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Complete a sentença. O Comitê de Arquitetura é normalmente responsável por atingir todos os  objetivos a seguir, exceto ___________    ",
         "POSSIBLE_ANSWERS": [
             "A. garantindo a consistência entre as sub-arquiteturas",
@@ -3210,6 +3428,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "114",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das opções a seguir descreve melhor o objetivo de uma revisão de conformidade de  arquitetura?",
         "POSSIBLE_ANSWERS": [
             "A. Para revisar a validade da Visão de Arquitetura de um projeto",
@@ -3224,6 +3443,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "115",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das seguintes afirmações sobre TOGAF Building Blocks NÃO é verdadeira?    interoperem com eles  organização",
         "POSSIBLE_ANSWERS": [
             "A. Eles não devem ser reutilizados em outros projetos de arquitetura corporativa",
@@ -3238,6 +3458,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "116",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "De acordo com o TOGAF, qual das opções a seguir melhor descreve o propósito do Documento de  Definição de Arquitetura?",
         "POSSIBLE_ANSWERS": [
             "A. Um acordo entre parceiros de desenvolvimento e patrocinadores sobre as entregas",
@@ -3253,6 +3474,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "117",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das seguintes é uma afirmação verdadeira sobre o Modelo de Referência Técnica TOGAF?       ",
         "POSSIBLE_ANSWERS": [
             "A. O Método de Desenvolvimento de Arquitetura TOGAF exige o uso do Modelo de Referência Técnica para grandes projetos de arquitetura complexos",
@@ -3268,6 +3490,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "118",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Complete a sentença. De acordo com o TOGAF, a maneira mais simples de pensar sobre o  Continuum Corporativo é como um _____",
         "POSSIBLE_ANSWERS": [
             "A. Banco de dados de configuração",
@@ -3283,6 +3506,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "119",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual dos seguintes NÃO é um objetivo para a Fase B, Arquitetura de Negócios?",
         "POSSIBLE_ANSWERS": [
             "A. Definindo o Plano Estratégico de Negócios",
@@ -3297,6 +3521,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "120",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual dos seguintes NÃO é um objetivo para a Fase C, Arquitetura de Dados?",
         "POSSIBLE_ANSWERS": [
             "A. Definir uma arquitetura que possa ser entendida pelas partes interessadas",
@@ -3312,6 +3537,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "121",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual dos seguintes é o modelo mais relevante para uso na Fase C, Arquitetura de Aplicativo?",
         "POSSIBLE_ANSWERS": [
             "A. O modelo de dados ARTS",
@@ -3327,6 +3553,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "122",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Na Fase G, qual documento estabelece a conexão entre a organização de arquitetura e a  organização de implementação?",
         "POSSIBLE_ANSWERS": [
             "A. Contrato de Arquitetura",
@@ -3342,6 +3569,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "123",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das seguintes afirmações descreve melhor o gerenciamento de riscos no ADM?      ",
         "POSSIBLE_ANSWERS": [
             "A. A análise de risco é melhor conduzida na fase de Visão da Arquitetura para que o risco seja eliminado nas fases subsequentes",
@@ -3357,6 +3585,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "124",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual dos seguintes fornece uma base para tomar decisões de arquitetura e planejamento,  estruturar políticas, procedimentos e padrões e apoiar a resolução de situações contraditórias?",
         "POSSIBLE_ANSWERS": [
             "A. Princípios de arquitetura",
@@ -3372,6 +3601,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "125",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "A análise de diferenças (gap analysis) é uma técnica usada nas fases B, C, D e E. Qual das seguintes  afirmações melhor descreve a técnica de análise das diferenças?",
         "POSSIBLE_ANSWERS": [
             "A. Ele destaca as áreas de interesse das partes interessadas",
@@ -3387,6 +3617,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "126",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das seguintes é a prática pela qual a arquitetura corporativa e outras arquiteturas são  gerenciadas e controladas em nível corporativo?",
         "POSSIBLE_ANSWERS": [
             "A. Governança de arquitetura",
@@ -3402,6 +3633,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "127",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das opções a seguir descreve o objetivo de uma revisão de conformidade de arquitetura?",
         "POSSIBLE_ANSWERS": [
             "A. Para definir as capacidades da organização",
@@ -3416,6 +3648,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "128",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Complete a frase selecionando o par de palavras aplicável. De acordo com o TOGAF, um (A. _____  é usado para descrever ____ de uma parte interessada.",
         "POSSIBLE_ANSWERS": [
             "A. modelo de atividade, perspectiva",
@@ -3431,6 +3664,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "129",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das seguintes afirmações sobre TOGAF Building Blocks NÃO é verdadeira?      ",
         "POSSIBLE_ANSWERS": [
             "A. Eles são um pacote de funcionalidade destinado a atender às necessidades de negócios em toda a organização",
@@ -3446,6 +3680,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "130",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Complete a sentença. No TOGAF, os sistemas e processos legados que serão usados novamente no  futuro são considerados ______",
         "POSSIBLE_ANSWERS": [
             "A. Blocos de construção da arquitetura",
@@ -3461,6 +3696,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "131",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das seguintes afirmações descreve melhor o propósito da Especificação de Requisitos de  Arquitetura?",
         "POSSIBLE_ANSWERS": [
             "A. Um documento que desencadeia o início de um ciclo de desenvolvimento de arquitetura",
@@ -3475,6 +3711,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "132",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das seguintes opções melhor descreve o propósito do Plano de Comunicações?      ",
         "POSSIBLE_ANSWERS": [
             "A. Para garantir que as informações de arquitetura sejam comunicadas às partes interessadas certas no momento certo",
@@ -3489,6 +3726,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "133",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "A declaração \"Obter informações para as pessoas certas no momento certo de maneira segura e  confiável para dar suporte às operações essenciais para a empresa estendida\" descreve o conceito  de_____",
         "POSSIBLE_ANSWERS": [
             "A. Fluxo de informações sem fronteiras",
@@ -3504,6 +3742,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "134",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual dos seguintes é um objetivo da Fase Preliminar da ADM?",
         "POSSIBLE_ANSWERS": [
             "A. Para definir a Arquitetura de Linha de Base para este ciclo do ADM",
@@ -3519,6 +3758,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "135",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "De acordo com o TOGAF, ao criar visualizações para uma arquitetura específica, qual é a primeira  etapa recomendada?",
         "POSSIBLE_ANSWERS": [
             "A. Projete um ponto de vista para abordar todas as preocupações das partes interessadas",
@@ -3533,6 +3773,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "136",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "De acordo com o TOGAF, qual das opções a seguir melhor descreve como o Continuum  Corporativo é usado na organização e desenvolvimento de uma arquitetura?",
         "POSSIBLE_ANSWERS": [
             "A. É usado para coordenar com as outras estruturas de gerenciamento em uso",
@@ -3548,6 +3789,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "137",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual documento é enviado da organização patrocinadora para a organização de arquitetura para  acionar o início de um ciclo ADM?",
         "POSSIBLE_ANSWERS": [
             "A. Contrato de Arquitetura",
@@ -3563,6 +3805,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "138",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das seguintes afirmações melhor descreve o processo de Gerenciamento de Requisitos?",
         "POSSIBLE_ANSWERS": [
             "A. É usado para desenvolver requisitos para Arquiteturas de Transição que agregam valor comercial",
@@ -3578,6 +3821,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "139",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Complete a frase: TOGAF fornece um conjunto de materiais de referência para estabelecer uma  função de arquitetura dentro de uma organização conhecida como _________.",
         "POSSIBLE_ANSWERS": [
             "A. Estrutura de capacidade de arquitetura",
@@ -3593,6 +3837,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "140",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das opções a seguir o TOGAF descreve como um pacote de funcionalidade definido para  atender às necessidades de negócios em uma organização?",
         "POSSIBLE_ANSWERS": [
             "A. Um aplicativo",
@@ -3608,6 +3853,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "141",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das opções a seguir melhor descreve o propósito da Visão da Arquitetura?",
         "POSSIBLE_ANSWERS": [
             "A. Ele contém uma avaliação dos requisitos de arquitetura atuais",
@@ -3623,6 +3869,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "142",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das opções a seguir melhor descreve um propósito da técnica de Cenários de Negócios?",
         "POSSIBLE_ANSWERS": [
             "A. Detectar erros em uma arquitetura de projeto antecipadamente",
@@ -3638,6 +3885,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "143",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Complete a sentença. O processo de Gerenciamento de Requisitos é usado para______.",
         "POSSIBLE_ANSWERS": [
             "A. desenvolver requisitos para Arquiteturas de Transição que agregam valor comercial",
@@ -3653,6 +3901,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "144",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das opções a seguir descreve o Modelo de Referência Técnica TOGAF?",
         "POSSIBLE_ANSWERS": [
             "A. Uma Arquitetura de Sistemas Comum",
@@ -3668,6 +3917,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "145",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das opções a seguir melhor descreve a classe de informação conhecida como Recurso de  Arquitetura dentro do Repositório de Arquitetura?",
         "POSSIBLE_ANSWERS": [
             "A. Uma descrição da estrutura e método de arquitetura específicos da organização",
@@ -3683,6 +3933,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "146",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das opções a seguir descreve a classificação TOGAF na Fase H para uma mudança de  simplificação?    existente  para exploração  interessadas",
         "POSSIBLE_ANSWERS": [
             "A. Uma mudança impulsionada por um requisito para derivar valor adicional do investimento",
@@ -3698,6 +3949,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "147",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Nas Fases B, C e D, qual é o primeiro passo em cada fase?",
         "POSSIBLE_ANSWERS": [
             "A. Realizar revisão formal das partes interessadas",
@@ -3713,6 +3965,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "148",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Complete a sentença. O ADM pode ser visto como o processo de preencher o próprio _________  da empresa com blocos de construção reutilizáveis relevantes retirados do lado mais genérico do  Continuum Corporativo.",
         "POSSIBLE_ANSWERS": [
             "A. Repositório de arquitetura",
@@ -3728,6 +3981,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "149",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "De acordo com o TOGAF, qual dos seguintes termos descreve as pessoas que têm funções  importantes ou preocupações sobre um sistema?",
         "POSSIBLE_ANSWERS": [
             "A. consumidor",
@@ -3743,6 +3997,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "150",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Em qual fase do ciclo ADM os blocos de construção se tornam específicos da implementação?",
         "POSSIBLE_ANSWERS": [
             "A. Fase A",
@@ -3758,6 +4013,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "1",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "De acordo com o Modelo de Categorização de Documentos TOGAF, qual categoria descreve uma técnica que é referenciada por processos categorizados como TOGAF núcleo (core) e TOGAF mandatório (mandated)?",
         "POSSIBLE_ANSWERS": [
             "A. Diretrizes e Técnicas do TOGAF",
@@ -3772,6 +4028,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "2",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das seguintes razões descreve melhor por que o esquema de numeração ADM para saída de controle de versão é um exemplo e não obrigatório?",
         "POSSIBLE_ANSWERS": [
             "A. Para mostrar a evolução das entregas",
@@ -3786,6 +4043,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "3",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual seção do documento TOGAF descreve os processos, habilidades e funções para estabelecer e operar uma função de arquitetura dentro de uma empresa?",
         "POSSIBLE_ANSWERS": [
             "A. Parte II: Método de Desenvolvimento de Arquitetura",
@@ -3801,6 +4059,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "4",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual dos seguintes NÃO é um elemento de um framework de arquitetura?",
         "POSSIBLE_ANSWERS": [
             "A. Um vocabulário comum",
@@ -3815,6 +4074,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "5",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das opções a seguir descreve os métodos de classificação para artefatos de arquitetura e solução no repositório de arquitetura?",
         "POSSIBLE_ANSWERS": [
             "A. Paisagem da Arquitetura",
@@ -3830,6 +4090,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "6",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Complete a sentença. Para promover uma atividade de arquitetura eficaz dentro da empresa, o TOGAF 9 recomenda o estabelecimento de um (a)",
         "POSSIBLE_ANSWERS": [
             "A. Capacidade de Arquitetura Corporativa",
@@ -3844,6 +4105,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "7",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "De acordo com o Modelo de Categorização de Documentos TOGAF, qual categoria é para recursos NÃO referenciados pelo conteúdo dentro das outras categorias?",
         "POSSIBLE_ANSWERS": [
             "A. Núcleo TOGAF",
@@ -3858,6 +4120,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "8",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual fase do ADM é usada para finalizar um conjunto de arquiteturas de transição que darão suporte à implementação?",
         "POSSIBLE_ANSWERS": [
             "A. Fase D",
@@ -3873,6 +4136,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "9",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual dos seguintes é um objetivo da Fase B, Arquitetura de Negócios?",
         "POSSIBLE_ANSWERS": [
             "A. Para confirmar a capacidade da empresa de passar por mudanças",
@@ -3888,6 +4152,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "10",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Complete a sentença. O TOGAF Architecture Governance Framework inclui",
         "POSSIBLE_ANSWERS": [
             "A. uma lista de responsabilidades para administrar um Comitê de Arquitetura",
@@ -3902,6 +4167,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "11",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Que parte do repositório de arquitetura mostra os blocos de construção atualmente em uso na organização?",
         "POSSIBLE_ANSWERS": [
             "A. Paisagem de Arquitetura",
@@ -3917,6 +4183,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "12",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual técnica o TOGAF recomenda para avaliar o status de uma organização para passar por mudanças?",
         "POSSIBLE_ANSWERS": [
             "A. Avaliação de prontidão para transformação de negócios",
@@ -3932,6 +4199,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "13",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das opções a seguir descreve melhor o significado de `nível inicial de risco` no gerenciamento de riscos?",
         "POSSIBLE_ANSWERS": [
             "A. A categorização após a implementação de ações de mitigação",
@@ -3947,6 +4215,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "14",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das opções a seguir descreve a classificação da Fase H para uma mudança incremental?",
         "POSSIBLE_ANSWERS": [
             "A. Uma mudança impulsionada por um requisito para derivar valor adicional do investimento existente",
@@ -3961,6 +4230,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "15",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das alternativas a seguir completa melhor a frase? O repositório de arquitetura _____",
         "POSSIBLE_ANSWERS": [
             "A. é usado para armazenar diferentes classes de saída arquitetônica criadas pelo ADM",
@@ -3976,6 +4246,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "16",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das opções a seguir melhor descreve o documento de Visão da Arquitetura?",
         "POSSIBLE_ANSWERS": [
             "A. Um acordo entre os parceiros de desenvolvimento e o patrocinador sobre os produtos de arquitetura",
@@ -3991,6 +4262,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "17",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Complete a sentença. Durante a implementação de uma arquitetura, se a Definição de Arquitetura original e os requisitos não forem adequados, um pode ser enviado para iniciar um trabalho de arquitetura adicional.",
         "POSSIBLE_ANSWERS": [
             "A. Avaliação de capacidade",
@@ -4005,6 +4277,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "18",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Complete a sentença. Todos os itens a seguir descrevem a finalidade de uma revisão de conformidade da arquitetura, exceto",
         "POSSIBLE_ANSWERS": [
             "A. determinar a prontidão técnica de um projeto",
@@ -4020,6 +4293,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "19",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "De acordo com o TOGAF, qual das opções a seguir melhor descreve o objetivo do Roteiro de Arquitetura?",
         "POSSIBLE_ANSWERS": [
             "A. Para garantir que as informações de arquitetura sejam comunicadas às partes interessadas certas no momento certo",
@@ -4034,6 +4308,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "20",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das seguintes é uma responsabilidade de um Comitê de Arquitetura?",
         "POSSIBLE_ANSWERS": [
             "A. Alocando recursos para projetos de arquitetura",
@@ -4048,6 +4323,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "21",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "De acordo com o TOGAF, qual das seguintes é a razão pela qual a arquitetura de negócios é recomendada como a primeira arquitetura desenvolvida?",
         "POSSIBLE_ANSWERS": [
             "A. Contém uma descrição de alto nível da estratégia de negócios para a organização",
@@ -4062,6 +4338,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "22",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das opções a seguir descreve melhor o Modelo de Referência de Infraestrutura de Informação Integrada?",
         "POSSIBLE_ANSWERS": [
             "A. Pode ser usado para determinar o nível de capacidade de uma empresa",
@@ -4077,6 +4354,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "23",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Ao usar um ciclo do ADM para estabelecer um recurso de arquitetura conforme descrito no TOGAF Parte VII, qual arquitetura descreveria os requisitos de infraestrutura?",
         "POSSIBLE_ANSWERS": [
             "A. Arquitetura do aplicativo",
@@ -4092,6 +4370,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "24",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Nas Fases B, C e D, qual é a etapa final em cada fase?",
         "POSSIBLE_ANSWERS": [
             "A. Realizar revisão formal das partes interessadas",
@@ -4107,6 +4386,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "25",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual dos seguintes é um objetivo da Fase Preliminar?",
         "POSSIBLE_ANSWERS": [
             "A. Desenvolver o documento de Visão da Arquitetura",
@@ -4122,6 +4402,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "26",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Complete a senteça. A paisagem da arquitetura é dividida em três níveis, capacidade, segmento e ...",
         "POSSIBLE_ANSWERS": [
             "A. Linha de base",
@@ -4137,6 +4418,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "27",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das opções a seguir é o domínio de arquitetura que descreve os recursos lógicos de software e hardware?",
         "POSSIBLE_ANSWERS": [
             "A. Arquitetura do aplicativo",
@@ -4151,6 +4433,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "28",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das opções a seguir melhor descreve um uso primário do documento de Visão da Arquitetura?",
         "POSSIBLE_ANSWERS": [
             "A. Uma lista de verificação para revisões de conformidade",
@@ -4166,6 +4449,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "29",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das opções a seguir descreve o objetivo de uma revisão de conformidade de arquitetura?",
         "POSSIBLE_ANSWERS": [
             "A. Para definir as capacidades da organização",
@@ -4180,6 +4464,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "30",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Complete a sentença. O TOGAF 9 Parte III fornece técnicas, como princípios de desenvolvimento e Análise das Diferenças (Gap Analysis), para apoiar tarefas dentro do _____",
         "POSSIBLE_ANSWERS": [
             "A. Estrutura de capacidade de arquitetura",
@@ -4195,6 +4480,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "31",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual fase do ADM é uma atividade contínua que é visitada ao longo de um projeto de arquitetura TOGAF?",
         "POSSIBLE_ANSWERS": [
             "A. Gerenciamento de Mudanças de Arquitetura",
@@ -4210,6 +4496,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "32",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual seção do modelo TOGAF para definição de princípios deve destacar os requisitos para a execução do princípio?",
         "POSSIBLE_ANSWERS": [
             "A. Implicações",
@@ -4224,6 +4511,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "33",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Que parte do repositório de arquitetura mostra os blocos de construção atualmente em uso na organização?",
         "POSSIBLE_ANSWERS": [
             "A. Paisagem da Arquitectura",
@@ -4239,6 +4527,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "34",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Complete a frase: Blocos de Construção (Building Blocks) que são vistos como estando no lado esquerdo do Solutions Continuum são conhecidos como",
         "POSSIBLE_ANSWERS": [
             "A. Soluções de sistemas comuns",
@@ -4254,6 +4543,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "35",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Complete a sentença. Uma Análise das Diferenças (gap analysis) permitirá que o arquiteto faça tudo o que segue, exceto",
         "POSSIBLE_ANSWERS": [
             "A. identificar blocos de construção que foram omitidos inadvertidamente",
@@ -4269,6 +4559,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "36",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das seguintes afirmações sobre pontos de vista está correta?",
         "POSSIBLE_ANSWERS": [
             "A. Um ponto de vista é sempre específico para uma arquitetura",
@@ -4283,6 +4574,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "37",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual fase do ADM se concentra na governança e gerenciamento dos Contratos de Arquitetura que cobrem o processo geral de implementação e implantação?",
         "POSSIBLE_ANSWERS": [
             "A. Gerenciamento de Requisitos",
@@ -4298,6 +4590,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "38",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Complete a sentença. O principal objetivo da análise de diferenças (gap analysis) é",
         "POSSIBLE_ANSWERS": [
             "A. estabelecer parâmetros de qualidade para a arquitetura",
@@ -4313,6 +4606,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "39",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Em qual fase do TOGAF ADM os resultados da análise de diferenças (Gap Analysis) das fases anteriores são consolidados?",
         "POSSIBLE_ANSWERS": [
             "A. Fase D",
@@ -4328,6 +4622,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "40",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "A análise de diferenças (gap analysis) é uma técnica usada nas fases B, C, D e E. Qual das seguintes afirmações melhor descreve a técnica de análise de diferenças (gap analysis)?",
         "POSSIBLE_ANSWERS": [
             "A. Ele destaca as áreas de interesse das partes interessadas",
@@ -4343,6 +4638,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "41",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual fase do TOGAF ADM é a primeira fase diretamente relacionada com o planejamento para a implementação da(s) arquitetura(s) de destino?",
         "POSSIBLE_ANSWERS": [
             "A. Fase D",
@@ -4358,6 +4654,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "42",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual fase do ADM fornece supervisão arquitetural da implementação?",
         "POSSIBLE_ANSWERS": [
             "A. Fase Preliminar",
@@ -4373,6 +4670,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "43",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual seção do modelo TOGAF para Princípios de Arquitetura deve destacar os benefícios comerciais da adesão ao princípio?",
         "POSSIBLE_ANSWERS": [
             "A. Implicações",

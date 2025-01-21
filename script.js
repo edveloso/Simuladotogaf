@@ -29,6 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
             );
         });
         quizContainer.innerHTML = `
+            <div class="question-type">${currentQuestion.QUESTION_TYPE}</div>
             <div class="question">${currentQuestion.QUESTION_TEXT} </div>
             <div class="answers"> ${answers.join('')} </div>
             <button id="submit">Submit Answer</button>

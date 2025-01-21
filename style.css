@@ -30,6 +30,19 @@ h1 {
 }
 
 
+/* Estilo para o tipo de pergunta */
+.question-type {
+    font-size: 18px;          /* Tamanho da fonte */
+    font-weight: bold;        /* Negrito */
+    color: #ffffff;           /* Cor do texto */
+    background-color: #007bff; /* Cor de fundo azul */
+    padding: 10px;            /* Espaçamento interno */
+    border-radius: 5px;       /* Bordas arredondadas */
+    margin-bottom: 15px;      /* Espaçamento inferior */
+    display: inline-block;    /* Exibe como bloco em linha */
+}
+
+
 
 button {
     display: block;

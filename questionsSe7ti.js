@@ -1,6 +1,7 @@
 const questions = [
     {
         "QUESTION_NUMBER": "1",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das alternativas a seguir descreve melhor a finalidade do TRM?",
         "POSSIBLE_ANSWERS": [
             "A. Fornecer um framework para governança de TI.",
@@ -16,6 +17,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "2",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual dos seguintes não é considerado uma das principais partes do TOGAF?",
         "POSSIBLE_ANSWERS": [
             "A. Método de Desenvolvimento da Arquitetura.",
@@ -31,6 +33,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "3",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "As seguintes declarações descrevem as fases do MDA, exceto:",
         "POSSIBLE_ANSWERS": [
             "A. São cíclicas.",
@@ -45,6 +48,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "4",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "De acordo com o TOGAF, todos as declarações seguintes se aplicam ao Continuum da Corporação, exceto:",
         "POSSIBLE_ANSWERS": [
             "A. É um repositório virtual de todos os ativos da arquitetura e artefatos conhecidos da indústria de TI.",
@@ -60,6 +64,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "5",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "De acordo com o TOGAF, todos os exemplos seguintes são ativos ou artefatos genéricos do Continuum da Arquitetura, exceto:",
         "POSSIBLE_ANSWERS": [
             "A. O TRM do TOGAF.",
@@ -75,6 +80,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "6",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "O TOGAF indica, em vários momentos, a utilização de Modelos de Referência. Todas as afirmações abaixo sobre esse tema estão corretas, exceto:",
         "POSSIBLE_ANSWERS": [
             "A. Apenas os modelos de referência originados fora da organização são confiáveis.",
@@ -89,6 +95,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "7",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual extensão do metamodelo do TOGAF é a mais apropriada para ser utilizada quando muitos aplicativos estão em uso com sobreposição de funcionalidade?",
         "POSSIBLE_ANSWERS": [
             "A. Motivacional.",
@@ -104,6 +111,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "8",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual dos seguintes itens é completado durante a Fase Preliminar do MDA do TOGAF?",
         "POSSIBLE_ANSWERS": [
             "A. Princípios de Arquitetura.",
@@ -119,6 +127,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "9",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual dos seguintes itens expressa uma razão para adaptar o MDA?",
         "POSSIBLE_ANSWERS": [
             "A. Necessidade de integração com outros frameworks, como PMBOK e COBIT.",
@@ -134,6 +143,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "10",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das seguintes opções NÃO descreve algo relacionado à Governança de Arquitetura?",
         "POSSIBLE_ANSWERS": [
             "A. Implementação de um sistema de controle sobre a criação e monitoramento de todos os componentes e atividades da arquitetura.",
@@ -149,6 +159,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "11",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Onde o Modelo de Referência de Infraestrutura de Informação Integrada se relaciona com o Continuum Corporativo?",
         "POSSIBLE_ANSWERS": [
             "A. Arquitetura de fundação.",
@@ -163,6 +174,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "12",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Abaixo estão descritas apenas quatro características de um bom cenário de negócio. Assinale a opção que NÃO descreve corretamente uma característica desejada.",
         "POSSIBLE_ANSWERS": [
             "A. Específico, define o que efetivamente precisa ser feito.",
@@ -178,6 +190,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "13",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Assinale a opção que descreve as fases em que a técnica de cenário de negócios é mais proeminentemente recomendada.",
         "POSSIBLE_ANSWERS": [
             "A. Fases Peliminar e A.",
@@ -193,6 +206,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "14",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Falando sobre Visões e Pontos de Vista, qual das seguintes afirmações é verdadeira?",
         "POSSIBLE_ANSWERS": [
             "A. Um visão é a perspectiva de uma parte interessada específica.",
@@ -208,6 +222,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "15",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Todos abaixo são objetivos da Fase A, exceto:",
         "POSSIBLE_ANSWERS": [
             "A. Validar os princípios e objetivos de negócio da organização.",
@@ -223,6 +238,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "16",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Escolha a continuação correta para a seguinte frase: “Arquitetura de Negócio é a primeira atividade de arquitetura a ser executada porque…”",
         "POSSIBLE_ANSWERS": [
             "A. Muitas vezes é necessário demonstrar o valor ao negócio da atividade de arquitetura em geral.",
@@ -238,6 +254,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "17",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Quais das seguintes opções descreve a ordem das etapas na Fase C?",
         "POSSIBLE_ANSWERS": [
             "A. Primeiro a Arquitetura de Dados.",
@@ -253,6 +270,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "18",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das afirmações a seguir se refere aos blocos de construção?",
         "POSSIBLE_ANSWERS": [
             "A. Um bloco de construção é um pacote de funcionalidade definido para atender às necessidades do negócio.",
@@ -267,6 +285,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "19",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Quais das seguintes é, na maioria das vezes, a estratégia mais bem sucedida para a Fase E?",
         "POSSIBLE_ANSWERS": [
             "A. Focar nos aplicativos que são relevantes para a empresa, independentemente do seus custos.",
@@ -282,6 +301,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "20",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Quando estiver preparando o Plano de Migração detalhado, qual das seguintes alternativas NÃO deve ser considerada?",
         "POSSIBLE_ANSWERS": [
             "A. Avaliação de Riscos.",
@@ -297,6 +317,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "21",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das seguintes opções fornece uma base para governar a implementação dos projetos recomendados?",
         "POSSIBLE_ANSWERS": [
             "A. Análise de Impacto.",
@@ -312,6 +333,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "22",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual das opções abaixo NÃO reflete algo realizado na fase H?",
         "POSSIBLE_ANSWERS": [
             "A. Garantir que o negócio continue da mesma forma.",
@@ -327,6 +349,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "23",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Durante uma rodada da arquitetura, foram descobertas novas partes interessadas. Em qual fase do MDA será avaliada a prioridade para tratamento desta alteração?",
         "POSSIBLE_ANSWERS": [
             "A. Fase preliminar.",
@@ -342,6 +365,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "24",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual opção não representa um domínio do TOGAF?",
         "POSSIBLE_ANSWERS": [
             "A. Auditoria.",
@@ -357,6 +381,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "25",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "O MDA do TOGAF é um(a):",
         "POSSIBLE_ANSWERS": [
             "A. Framework.",
@@ -372,6 +397,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "26",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "A fase A do MDA inicia com o(a):",
         "POSSIBLE_ANSWERS": [
             "A. Aprovação do presidente da organização.",
@@ -387,6 +413,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "27",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "O TOGAF sugere, mas não exige, o uso de _______ para analisar os requisitos de negócio.",
         "POSSIBLE_ANSWERS": [
             "A. Análise de diferenças.",
@@ -402,6 +429,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "28",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "O conceito de reuso dos blocos de construção é parte de qual componente do TOGAF?",
         "POSSIBLE_ANSWERS": [
             "A. Continuum Corporativo.",
@@ -417,6 +445,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "29",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Qual saída da Fase D é o resultado mais importante para a Fase E?",
         "POSSIBLE_ANSWERS": [
             "A. Análise de Impacto.",
@@ -432,6 +461,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "30",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Sobre a adaptação do TOGAF é incorreto afirmar que:",
         "POSSIBLE_ANSWERS": [
             "A. Embora possível, o TOGAF não recomenda que sejam feitas adaptações.",
@@ -447,6 +477,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "31",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "Quando utilizamos o ADM para estabelecer a Capacidade da Arquitetura, em que fase é recomendado que se defina a estrutura do Repositório de Arquitetura?",
         "POSSIBLE_ANSWERS": [
             "A. Fase Peliminar.",
@@ -462,6 +493,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "32",
+        "QUESTION_TYPE": "TOGAF",
         "QUESTION_TEXT": "O TOGAF define níveis de conformidade da arquitetura. Quais das seguintes opções descreve a situação na qual algumas características da especificação da arquitetura não foram implementadas, mas todas as que foram estão de acordo com a especificação?",
         "POSSIBLE_ANSWERS": [
             "A. Irrelevante.",

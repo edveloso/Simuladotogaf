@@ -1,6 +1,7 @@
 const questions = [
     {
         "QUESTION_NUMBER": "26",
+        "QUESTION_TYPE": "AZ-204 BASIC",
         "QUESTION_TEXT": "What is the purpose of creating a client object when working with Azure resources?",
         "POSSIBLE_ANSWERS": [
             "A. To establish a connection to Azure SQL Database.",
@@ -16,6 +17,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "27",
+        "QUESTION_TYPE": "AZ-204 BASIC",
         "QUESTION_TEXT": "Which class allows interaction with resources at the storage account level?",
         "POSSIBLE_ANSWERS": [
             "A. BlobClient",
@@ -31,6 +33,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "28",
+        "QUESTION_TYPE": "AZ-204 BASIC",
         "QUESTION_TEXT": "What method is used to create a BlobContainerClient object from a BlobServiceClient?",
         "POSSIBLE_ANSWERS": [
             "A. GetBlobServiceClient",
@@ -46,6 +49,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "29",
+        "QUESTION_TYPE": "AZ-204 BASIC",
         "QUESTION_TEXT": "What authentication method is used in the code examples for creating client objects?",
         "POSSIBLE_ANSWERS": [
             "A. Shared Key Authentication",
@@ -61,6 +65,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "30",
+        "QUESTION_TYPE": "AZ-204 BASIC",
         "QUESTION_TEXT": "Which Azure RBAC role must be assigned to the security principal requesting a token for blob data access?",
         "POSSIBLE_ANSWERS": [
             "A. Storage Account Contributor",
@@ -76,6 +81,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "31",
+        "QUESTION_TYPE": "AZ-204 BASIC",
         "QUESTION_TEXT": "Which method allows interaction with a specific blob within a container?",
         "POSSIBLE_ANSWERS": [
             "A. GetBlobServiceClient",
@@ -91,6 +97,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "32",
+        "QUESTION_TYPE": "AZ-204 BASIC",
         "QUESTION_TEXT": "What is required in the URI when creating a BlobContainerClient directly?",
         "POSSIBLE_ANSWERS": [
             "A. The container name appended to the account URI.",
@@ -106,6 +113,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "33",
+        "QUESTION_TYPE": "AZ-204 BASIC",
         "QUESTION_TEXT": "What does the BlobClient class allow you to do?",
         "POSSIBLE_ANSWERS": [
             "A. Manage storage account properties.",
@@ -121,6 +129,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "34",
+        "QUESTION_TYPE": "AZ-204 BASIC",
         "QUESTION_TEXT": "Which parameter is required when instantiating a BlobServiceClient object?",
         "POSSIBLE_ANSWERS": [
             "A. Storage Account Key",
@@ -136,6 +145,7 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "35",
+        "QUESTION_TYPE": "AZ-204 BASIC",
         "QUESTION_TEXT": "What method is used to obtain a BlobClient object from a container client?",
         "POSSIBLE_ANSWERS": [
             "A. GetBlobServiceClient",
