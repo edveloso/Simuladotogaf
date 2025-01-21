@@ -1,7 +1,7 @@
 Utilize o dados descrito em <<DADOS>>  e formate-os gerando 10 perguntas para um quiz aplicando o <<TEMPLATE>>
 Não esqueça de colocar no campo <<Explicação>> do template o maior número de explicações possíveis. 
 
-Começe o número de questão por 78.
+Começe o número de questão por 88.
 
 Mantenha o idioma original.
 
@@ -10,53 +10,30 @@ defina o seguinte valor para QUESTION_TYPE
 
 DADOS:
 """
-Descobrir recursos de rede do Serviço de Aplicativo
+Configurar mapeamentos de caminho
 Concluído
 100 XP
-4 minutos
-Por padrão, os aplicativos hospedados no Serviço de Aplicativo podem ser acessados diretamente pela Internet e permitem acessar apenas pontos de extremidade hospedados online. No entanto, para muitos aplicativos, você precisa controlar o tráfego de rede de entrada e saída.
-Há dois tipos de implantação principais para o Serviço de Aplicativo do Azure. O serviço público multilocatário hospeda planos do Serviço de Aplicativo nas SKUs Gratuitas, Compartilhadas, Básicas, Standard, Premium, PremiumV2 e PremiumV3. Há ainda o ASE (Ambiente do Serviço de Aplicativo) de locatário único, que hospeda planos do Serviço do Aplicativo de SKU Isolado diretamente na rede virtual do Azure.
-Recursos de rede do Serviço de Aplicativo multilocatário
-O Serviço de Aplicativo do Azure é um sistema distribuído. As funções que tratam solicitações HTTP ou HTTPS de entrada são chamadas de front-ends. As funções que hospedam a carga de trabalho do cliente são chamadas de Trabalhos. Todas as funções em uma implantação do Serviço de Aplicativo são encontradas em uma rede multilocatário. Como há muitos clientes diferentes na mesma unidade de escala do Serviço de Aplicativo, não é possível conectar a rede do Serviço de Aplicativo diretamente à sua rede.
-Em vez de conectar as redes, use recursos para lidar com os vários aspectos da comunicação do aplicativo. Os recursos que tratam as solicitações para o aplicativo não podem ser usados para resolver problemas ao fazer chamadas pelo aplicativo. Da mesma forma, os recursos que resolvem problemas de chamadas pelo aplicativo não podem ser usados para resolver problemas do aplicativo.
-Recursos de entrada	Recursos de saída
-Endereço atribuído ao aplicativo	Conexões Híbridas
-Restrições de acesso	Integração de rede virtual exigida por gateway
-Pontos de extremidade de serviço	Integração de rede virtual
-Pontos de extremidade privados	
-Você pode combinar os recursos para resolver problemas, com poucas exceções. Os casos de uso a seguir de entrada são exemplos de como usar os recursos de rede do Serviço de Aplicativo para controlar o tráfego de entrada para o seu aplicativo.
-Caso de uso de entrada	Recurso
-Suporte às necessidades de SSL baseado em IP para o aplicativo	Endereço atribuído ao aplicativo
-Suporte ao endereço de entrada dedicado e não compartilhado para o aplicativo	Endereço atribuído ao aplicativo
-Restringir o acesso ao aplicativo de um conjunto de endereços bem definidos	Restrições de acesso
-Comportamento de rede padrão
-As unidades de escala do Serviço de Aplicativo do Azure suportam muitos clientes em cada implantação. Os planos de SKU Gratuita e Compartilhada hospedam cargas de trabalho do cliente em trabalhos multilocatários. Os planos Básico e superiores hospedam cargas de trabalho do cliente que são dedicadas a apenas um plano do Serviço de Aplicativo. Se você tiver um plano Standard do Serviço de Aplicativo, todos os aplicativos nesse plano serão executados no mesmo trabalho. Se você escalar horizontalmente o trabalho, todos os aplicativos nesse plano do Serviço de Aplicativo serão replicados em um novo trabalho para cada instância existente.
-Endereços de saída
-
-As VMs de trabalho são divididas em grande parte pelos planos do Serviço de Aplicativo. Os planos Gratuito, Compartilhado, Básico, Standard e Premium usam o mesmo tipo de VM de trabalho. O plano PremiumV2 usa outro tipo de VM. O PremiumV3 usa um outro tipo de VM. Ao mudar a família de VMs, você obtém um conjunto diferente de endereços de saída.
-Há muitos endereços que são usados para chamadas de saída. Os endereços de saída usados pelo aplicativo para fazer chamadas de saída são listados nas propriedades do aplicativo. Esses endereços são compartilhados por todos os aplicativos em execução na mesma família de VMs de trabalho da implantação do Serviço de Aplicativo. Caso queira ver todos os endereços que o aplicativo pode usar em uma unidade de escala, há uma propriedade chamada possibleOutboundIpAddresses que os listará.
-Localizar IPs de saída
-
-Para localizar os endereços IP de saída atualmente usados pelo aplicativo no portal do Azure, selecione Propriedades na barra de navegação à esquerda do aplicativo.
-É possível localizar as mesmas informações, executando o comando da CLI do Azure a seguir no Cloud Shell. Eles são listados no campo Endereços IP de saída adicionais.
-Bash
-
-Copiar
-az webapp show \
-    --resource-group <group_name> \
-    --name <app_name> \ 
-    --query outboundIpAddresses \
-    --output tsv
-Para localizar todos os endereços IP de saída possíveis para o aplicativo, independentemente dos tipos de preços, execute o comando a seguir no Cloud Shell.
-Bash
-
-Copiar
-az webapp show \
-    --resource-group <group_name> \ 
-    --name <app_name> \ 
-    --query possibleOutboundIpAddresses \
-    --output tsv
-
+3 minutos
+Na seção Configuração > Mapeamentos de caminho, você pode configurar mapeamentos de manipulador, de aplicativo virtual e diretórios. A página Mapeamentos de caminho exibe diferentes opções com base no tipo de SO.
+Aplicativos do Windows (não conteinerizado)
+Para aplicativos do Windows, você pode personalizar os mapeamentos do manipulador do IIS, os diretórios e os aplicativos virtuais.
+Os mapeamentos do manipulador permitem que você adicione processadores de script personalizado para manipular solicitações para extensões de arquivo especificadas. Para adicionar um manipulador personalizado, selecione Novo mapeamento de manipulador. Configure o manipulador da seguinte maneira:
+Extensão: a extensão de arquivo que você deseja manipular, como *.php ou handler.fcgi.
+Processador descript: o caminho absoluto do processador de script. As solicitações para arquivos que correspondam à extensão do arquivo são processadas pelo processador de script. Use o caminho D:\home\site\wwwroot para se referir ao diretório raiz do seu aplicativo.
+Argumentos: argumentos de linha de comando opcionais para o processador de script.
+Cada aplicativo tem o caminho raiz padrão (/) mapeado para D:\home\site\wwwroot, em que seu código é implantado por padrão. Se a raiz do aplicativo estiver em uma pasta diferente ou se o repositório tiver mais de um aplicativo, você poderá editar ou adicionar diretórios e aplicativos virtuais.
+Você pode configurar diretórios e aplicativos virtuais, especifique cada diretório virtual e seu caminho físico correspondente em relação à raiz do site (D:\home). Para marcar um diretório virtual como um aplicativo Web, desmarque a caixa de seleção Diretório.
+Aplicativos Linux e em contêineres
+Você pode adicionar armazenamento personalizado para seu aplicativo conteinerizado. Os aplicativos conteinerizados incluem todos os aplicativos do Linux e também os contêineres personalizados do Windows e Linux em execução no Serviço de Aplicativo. Selecione Nova Montagem de Armazenamento do Azure e configure seu armazenamento personalizado da seguinte maneira:
+Nome: o nome de exibição.
+Opções de configuração: Básico ou Avançado. Selecione Básico se a conta de armazenamento não estiver usando pontos de extremidade de serviço, pontos de extremidade privados ou Azure Key Vault. Caso contrário, selecione Avançado.
+Contas de armazenamento: a conta de armazenamento com o contêiner desejado.
+Tipo de armazenamento: Blobs do Azure ou Arquivos do Azure. Os aplicativos de contêiner do Windows são compatíveis somente com os Arquivos do Azure. Os Blobs do Azure dão suporte apenas ao acesso somente leitura.
+Contêiner de armazenamento: para configuração básica, o contêiner desejado.
+Nome do compartilhamento: para configuração avançada, o nome do compartilhamento de arquivos.
+Chave de acesso: para configuração avançada, a chave de acesso.
+Caminho de montagem: o caminho absoluto em seu contêiner para montar o armazenamento personalizado.
+Configuração do slot de implantação: Quando marcadas, as configurações de montagem de armazenamento também se aplicam aos slots de implantação.
 
 
 
