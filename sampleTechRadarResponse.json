@@ -11,12 +11,12 @@
       ],
       "key": "javascript",
       "id": "javascript",
-      "title": "JavaScript",
+      "title": "ECMA SCRIPT",
       "quadrant": "languages",
       "links": [
         {
           "url": "https://www.javascript.com/",
-          "title": "Learn more"
+          "title": "Aprenda mais"
         },
         {
           "url": "https://www.typescriptlang.org/",
