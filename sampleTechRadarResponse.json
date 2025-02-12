@@ -124,7 +124,7 @@
       "key": "force-push",
       "id": "force-push",
       "title": "Force push to master",
-      "quadrant": "process"
+      "quadrant": "novo"
     }
   ],
   "quadrants": [
@@ -143,6 +143,10 @@
     {
       "id": "process",
       "name": "Process"
+    },
+    {
+      "id": "novo",
+      "name": "Novo"
     }
   ],
   "rings": [
