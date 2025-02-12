@@ -112,7 +112,7 @@
       "key": "docs-like-code",
       "id": "docs-like-code",
       "title": "Docs-like-code",
-      "quadrant": "process"
+      "quadrant": "Jose-rico"
     },
     {
       "timeline": [
@@ -124,7 +124,7 @@
       "key": "force-push",
       "id": "force-push",
       "title": "Force push to master",
-      "quadrant": "process"
+      "quadrant": "jose-augusto"
     }
   ],
   "quadrants": [
@@ -143,6 +143,14 @@
     {
       "id": "process",
       "name": "Process"
+    },
+    {
+      "id": "jose-augusto",
+      "name": "Jose-augusto"
+    },
+    {
+      "id": "jose-rico",
+      "name": "Jose-rico"
     }
   ],
   "rings": [
