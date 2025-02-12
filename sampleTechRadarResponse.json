@@ -124,7 +124,7 @@
       "key": "force-push",
       "id": "force-push",
       "title": "Force push to master",
-      "quadrant": "jose-augusto"
+      "quadrant": "process"
     }
   ],
   "quadrants": [
@@ -143,10 +143,6 @@
     {
       "id": "process",
       "name": "Process"
-    },
-    {
-      "id": "jose-augusto",
-      "name": "Jose-augusto"
     }
   ],
   "rings": [
