@@ -112,7 +112,7 @@
       "key": "docs-like-code",
       "id": "docs-like-code",
       "title": "Docs-like-code",
-      "quadrant": "Jose-rico"
+      "quadrant": "process"
     },
     {
       "timeline": [
@@ -147,10 +147,6 @@
     {
       "id": "jose-augusto",
       "name": "Jose-augusto"
-    },
-    {
-      "id": "jose-rico",
-      "name": "Jose-rico"
     }
   ],
   "rings": [
